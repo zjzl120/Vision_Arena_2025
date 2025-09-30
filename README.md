@@ -2,15 +2,8 @@
 
 视觉校内赛裁判系统，提供简单例程共参考
 
-## ✨ 功能特性
- **仿真空间**：模仿真实世界环境，有简单的物体运动
- **裁判系统**：对于选手的识别结果做误差计算，得到得分文件JSON,日志log
- **环境搭建**：通过docker一键搭建环境
 
-![RankFlow](docs/img/image.png)
-![search](docs/img/search.png)
-
-## 🚀 快速开始
+##  搭建
 
 ### 环境搭建
 ```bash
@@ -39,148 +32,90 @@ ros2 launch referee_pkg referee_pkg_launch.xml
 ros2 run player_pkg TestNode 
 ```
 
-## 📁 项目结构
+## 📁 文件结构
 
 ```
-rank/
 ├── README.md                # 项目说明文档
-├── LICENSE                  # 开源许可证
-├── CMakeLists.txt          # CMake 构建配置
-├── quick-build.sh          # 快速构建脚本
-├── src/                    # 源代码目录
-├── ui/                     # UI 界面文件
-├── resources/              # 资源文件
-├── data/                   # 测试数据
-├── scripts/                # 脚本文件目录
-│   ├── build/              # 构建脚本
-│   ├── package/            # 打包脚本
-│   ├── deploy/             # 部署脚本
-│   └── tools/              # 工具脚本
+├── install/                  # 编译安装目录
+├── src/                    # 例程源代码
+├── results/                  # 得分结果文件
 └── docs/                    # 完整文档
-    ├── user/               # 用户文档
-    ├── technical/          # 技术文档
-    ├── deployment/         # 部署文档
-    ├── troubleshooting/    # 故障排除
-    └── img/                # 图片资源
+
 ```
 
-## 📚 文档导航
 
-### 👥 用户文档
-- [📖 用户手册](docs/user/user_manual.md) - 完整的用户操作指南
-- [💾 安装指南](docs/user/install_guide.md) - 系统安装和配置
-- [📥 数据导入指南](docs/user/data_import_guide.md) - 比赛数据导入说明
-- [🎮 演示说明](docs/user/demo.md) - 功能演示和示例
-- [🔍 二叉树查询指南](docs/user/binary_tree_query_guide.md) - 高效查询功能使用说明
 
-### 🔧 技术文档
-- [🏗️ 系统架构](docs/technical/architecture_integrated.md) - 详细的架构设计与网络功能
-- [📡 API 参考](docs/technical/api_reference.md) - 接口文档和规范
-- [💻 开发指南](docs/technical/development_guide.md) - 开发环境和流程
-- [📊 数据结构与算法](docs/technical/data_structures_optimized.md) - 系统数据结构与算法设计
-- [⚙️ 功能模块](docs/technical/function_modules.md) - 系统功能模块设计
-- [🔍 二叉树实现](docs/technical/binary_tree_implementation.md) - 二叉搜索树技术实现
+##  文档导航
 
-### 🚀 部署文档
-- [📦 部署指南](docs/deployment/deployment_guide.md) - 生产环境部署
-- [📦 打包指南](docs/deployment/packaging_guide.md) - 应用打包说明
-- [⚙️ 脚本说明](docs/deployment/scripts_guide.md) - 自动化脚本使用
+## 比赛阶段
+### STAGE_1
+**本阶段进行圆环的识别**,为防止选手将圆环视作圆进行处理，本阶段裁判系统<font style="color:#DF2A3F;">要求选手端发布圆环的外圆内圆信息</font>。
 
-### 🔍 故障排除
-- [🍎 macOS 问题](docs/troubleshooting/macos_issues.md) - macOS 平台特有问题
-- [💥 崩溃分析](docs/troubleshooting/crash_analysis.md) - 程序崩溃诊断
-- [❓ 常见问题](docs/troubleshooting/common_issues.md) - FAQ 和解决方案
+本阶段选手发布者发布的
 
-## 🛠️ 开发环境
+**话题名称应为 ****<font style="background-color:#DF2A3F;">/vision/target</font>**** **
 
-### 系统要求
-- **操作系统**：Windows 10+、macOS 10.14+、Ubuntu 18.04+
-- **编译器**：支持 C++17 的现代编译器
-- **Qt 版本**：Qt 5.12 或更高版本
-- **CMake**：3.16 或更高版本
+**话题消息类型应为 ****<font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>**
 
-### 依赖库
-- Qt5 Core、Widgets、Charts
-- 标准 C++17 库
-- CMake 构建系统
+**其中消息中的 **
 
-## 📦 脚本使用
+**Object[] objects 应以外圆 内圆 的顺序放入 ， 其内的四个点 应为圆上的 以左点为起始逆时针方向的四个点 **
 
-本项目提供了完整的自动化脚本工具集：
+**std_msgs/Header header 应为对应图像消息中的时间戳**
 
-### 构建脚本
-```bash
-./scripts/build/build.sh      # Linux/macOS 构建
-scripts\build\build.bat       # Windows 构建
-```
+**uint32 num_objects   要求为2******
 
-### 打包脚本
-```bash
-./scripts/package/package_linux.sh    # Linux 打包
-./scripts/package/package_macos.sh    # macOS 打包
-scripts\package\package_windows.bat   # Windows 打包
-```
+### STAGE_2
+本阶段选手发布者发布的
 
-### 工具脚本
-```bash
-./scripts/tools/check_data.sh         # 数据检查
-./scripts/tools/diagnose_crash.sh     # 崩溃诊断
-./scripts/tools/fix_macos_app.sh      # macOS 修复
-```
+**话题名称应为 ****<font style="background-color:#DF2A3F;">/vision/target</font>**** **
 
-详细使用说明请查看 [脚本说明文档](scripts/README.md)。
+**话题消息类型应为 ****<font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>**
 
-## 📝 版本控制
+**其中消息中的 **
 
-项目使用 Git 进行版本控制，包含完整的 `.gitignore` 配置：
+**Object[] objects  应至少涵盖要求发布的Arrow_red类型，否则分数为0 ，四个角点的顺序为左下起始逆时针方向**
 
-### 忽略文件管理
-```bash
-# 检查忽略状态
-./scripts/tools/manage_gitignore.sh check
+**std_msgs/Header header 应为对应图像消息中的时间戳**
 
-# 测试文件是否被忽略
-./scripts/tools/manage_gitignore.sh test <文件路径>
+**uint32 num_objects   对应objects**
 
-# 清理被忽略的文件
-./scripts/tools/manage_gitignore.sh clean
-```
+### STAGE_3/STAGE_4
+本阶段选手发布者发布的
 
-### 主要忽略内容
-- 🔨 构建文件和目录 (`build/`, `*.o`, `*.exe`)
-- 🔧 IDE 配置文件 (`.vscode/`, `.idea/`)
-- 📦 打包文件 (`package/`, `dist/`, `*.dmg`)
-- 📊 日志文件 (`logs/`, `*.log`)
-- 🗂️ 系统文件 (`.DS_Store`, `Thumbs.db`)
+**话题名称应为 ****<font style="background-color:#DF2A3F;">/vision/target</font>**** **
 
-详细使用说明请查看 [脚本说明文档](scripts/README.md)。
+**话题消息类型应为 ****<font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>**
 
-## 🤝 贡献指南
+**其中消息中的 **
 
-欢迎贡献代码！请遵循以下步骤：
+**Object[] objects  应至少涵盖要求发布的四个装甲板类型，否则分数为0 ，四个角点的顺序为左下起始逆时针方向**
 
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
+**std_msgs/Header header 应为对应图像消息中的时间戳**
 
-## 📄 许可证
+**uint32 num_objects   对应objects**
 
-本项目采用 MIT 许可证 - 详情请查看 [LICENSE](LICENSE) 文件。
+### STAGE_5
+出于全面考察ROS2、裁判系统实际书写以及选手的学习内容的考虑，本阶段ROS通信要求为 **<font style="color:#DF2A3F;">服务</font>**,**选手需要构造服务端**来接收**裁判系统客户端**的请求;此外裁判系统辖定了弹丸的击打速度 <font style="color:#DF2A3F;">1.5m/s</font>
 
-## 📞 支持
+本阶段选手服务的
 
-如果您遇到问题或有疑问：
+服务名称应为 **<font style="background-color:#FBDE28;">/referee/hit_arror</font>** 
 
-1. 📖 查看 [用户文档](docs/user/) 和 [故障排除](docs/troubleshooting/)
-2. 🔍 搜索现有的 [Issues](../../issues)
-3. 💬 创建新的 [Issue](../../issues/new) 描述您的问题
-4. 📧 联系作者 [email](mailto://zuquanzhi@qq.com)
+服务消息类型应为 **<font style="background-color:#FBDE28;">referee_pkg::srv::HitArmor</font>** 
 
----
+需要注意的是返回的 Response 中的 欧拉角应为<font style="color:#DF2A3F;"> 外旋ZYX </font>顺序 ，当然你要真的想弄复杂些弄 内旋ZYX 我也没意见 ，跟我提就好（根据反馈人数决定要不要更改）
 
-**最后更新时间**：2025年6月30日  
-**当前版本**：v1.4.0
+
+
+## 比赛得分
+
+<details class="lake-collapse"><summary id="ud7ac7697"><span class="ne-text" style="font-size: 16px">比赛阶段及对应分数</span></summary><h5 id="lN8Kk"><span class="ne-text">基础任务（40分）分两个任务，各二十分</span></h5><ol class="ne-ol"><li id="ue46aa76e" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">识别物体：圆环（内外八个点），箭头（按顺序发送点）</span></li></ol><p id="u47b05239" class="ne-p"><span class="ne-text" style="font-size: 16px">分值设置：</span></p><ol class="ne-ol"><li id="ub78d1d02" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">准确度（10分）【待测试】：</span></li><li id="uf7472692" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">单位时间内识别次数：根据选手端发来图像时发过几帧相机图像（10分）【待测试分档】：</span></li></ol><h5 id="jgGg1"><span class="ne-text">进阶任务（30分）</span></h5><ol class="ne-ol"><li id="u60b3ff42" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">动态识别：同时出现不同数字编号的四个装甲板，按照数字及对应装甲板位置存入自定义消息</span></li></ol><p id="uf1e5399c" class="ne-p"><span class="ne-text" style="font-size: 16px">采分：数字识别准确度（10分）：</span></p><p id="u5cff3389" class="ne-p" style="margin-left: 2em"><span class="ne-text" style="font-size: 16px">   识别次数（5分）</span></p><ol start="2" class="ne-ol"><li id="ufd7f787b" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">干扰项区分：在动态的多个尺寸比例下的正方体长方体干扰中识别动态装甲板位置</span></li></ol><p id="u31c5042f" class="ne-p"><span class="ne-text" style="font-size: 16px">采分：位置识别准确度（10分）</span></p><p id="u7eab0fc1" class="ne-p" style="text-indent: 2em"><span class="ne-text" style="font-size: 16px">   识别次数（5分）</span></p><h5 id="qfQJV"><span class="ne-text">装甲板击打（20分）</span></h5><p id="uadd2c688" class="ne-p"><span class="ne-text" style="font-size: 16px">选手端自行进行pnp解算，输出旋转角</span></p><p id="u1690bdfd" class="ne-p"><span class="ne-text" style="font-size: 16px">采分：</span></p><p id="u5ec062c0" class="ne-p"><span class="ne-text" style="font-size: 16px">         pnp准确度（0分）： (暂时废弃)</span></p><ol class="ne-ol"><li id="ua45b1443" data-lake-index-type="0"><span class="ne-text" style="font-size: 16px">弹道解算（20分）：是否命中（8分），命中精度（12分）：</span></li></ol><h5 id="XF14Q"><span class="ne-text">代码规范（10分）</span></h5><p id="u1abeb300" class="ne-p"><span class="ne-text" style="font-size: 16px">语雀技术文档，注释清晰</span></p><p id="u1e9c6dcd" class="ne-p"><span class="ne-text" style="font-size: 16px"></span></p></details>
+<font style="color:#DF2A3F;">需要特别注意的是: </font>
+
+
+
+**最后更新时间**：2025年9月30日  
+**当前版本**：v1.0.0
 
 
