@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (-) JobUnselected: {'identifier': 'referee_pkg'}
+[0.000407] (-) JobUnselected: {'identifier': 'target_model_pkg'}
+[0.000425] (player_pkg) JobQueued: {'identifier': 'player_pkg', 'dependencies': OrderedDict([('referee_pkg', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg')])}
+[0.000444] (player_pkg) JobStarted: {'identifier': 'player_pkg'}
+[0.015075] (player_pkg) JobEnded: {'identifier': 'player_pkg', 'rc': 1}
+[0.025415] (-) EventReactorShutdown: {}

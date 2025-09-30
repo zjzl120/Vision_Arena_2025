@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from referee_pkg/msg/MultiObject.msg
+// generated code does not contain a copyright notice
+
+#include "referee_pkg/msg/Object.idl"
+#include "std_msgs/msg/Header.idl"
+
+module referee_pkg {
+  module msg {
+    struct MultiObject {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "多个物体数组")
+      sequence<referee_pkg::msg::Object> objects;
+
+      @verbatim (language="comment", text=
+        "物体数量")
+      uint32 num_objects;
+    };
+  };
+};

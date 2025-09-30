@@ -1,0 +1,22 @@
+material small_num5
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            ambient 0 0 0 0
+            diffuse 1 1 1 0
+            specular 0 0 0 0
+            emissive 0 0 0 0
+
+            texture_unit
+            {
+                texture small_num5.png
+            }
+        }
+    }
+}

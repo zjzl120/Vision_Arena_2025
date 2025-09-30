@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="sphere">
+    <link name ="base_link">
+      <visual name="visual">
+        <gravity>false</gravity>
+        <geometry>
+          <sphere>
+            <radius>0.5</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.0 0.0 0.0 1.0</ambient>          <!-- 环境光颜色 (RGBA) -->
+          <diffuse>0.8 0.0 0.0 1.0</diffuse>          <!-- 漫反射颜色 (RGBA) -->
+          <specular>0.5 0.5 0.5 1.0</specular>          <!-- 镜面反射颜色 (RGBA) -->
+          <emissive>0.2 0.0 0.0 1.0</emissive>          <!-- 自发光颜色 (RGBA) -->
+        </material>
+
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.2</radius>
+          </sphere>
+        </geometry>
+      </collision>
+
+    </link>
+    <plugin name ="target_action" filename="libtarget_model_pkg_lib.so">
+
+
+    </plugin>
+  </model>
+</sdf>

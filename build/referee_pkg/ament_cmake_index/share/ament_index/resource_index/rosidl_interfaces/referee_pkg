@@ -1,0 +1,12 @@
+msg/MultiObject.idl
+msg/MultiObject.msg
+msg/Object.idl
+msg/Object.msg
+msg/RaceStage.idl
+msg/RaceStage.msg
+msg/Target.idl
+msg/Target.msg
+srv/HitArror.idl
+srv/HitArror.srv
+srv/HitArror_Request.msg
+srv/HitArror_Response.msg

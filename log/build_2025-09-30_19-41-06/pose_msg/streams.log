@@ -1,0 +1,191 @@
+[0.006s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/ros_gazebo_plugin/msg/pose_msg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.123s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.129s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.290s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.338s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.360s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.362s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.867s] -- Added test 'lint_cmake' to check CMake code style
+[0.867s] -- Added test 'xmllint' to check XML markup files
+[0.868s] -- Configuring done
+[0.878s] -- Generating done
+[0.881s] -- Build files have been written to: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg
+[0.886s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/ros_gazebo_plugin/msg/pose_msg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg
+[0.887s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg -- -j32 -l32
+[0.912s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.919s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.058s] [  6%] Built target pose_msg__cpp
+[1.058s] [ 13%] [32mBuilding C object CMakeFiles/pose_msg__rosidl_generator_c.dir/rosidl_generator_c/pose_msg/msg/detail/model_pose_array__functions.c.o[0m
+[1.058s] [ 13%] [32mBuilding C object CMakeFiles/pose_msg__rosidl_generator_c.dir/rosidl_generator_c/pose_msg/msg/detail/model_pose__functions.c.o[0m
+[1.064s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.064s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.065s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.085s] [ 27%] [32m[1mLinking C shared library libpose_msg__rosidl_generator_c.so[0m
+[1.109s] [ 27%] Built target pose_msg__rosidl_generator_c
+[1.116s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.117s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.118s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.202s] [ 41%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_msg/msg/model_pose_array__type_support.cpp.o[0m
+[1.202s] [ 44%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_msg/msg/model_pose__type_support.cpp.o[0m
+[1.206s] [ 48%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_msg/msg/detail/model_pose__type_support.cpp.o[0m
+[1.207s] [ 51%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_msg/msg/detail/model_pose_array__type_support.cpp.o[0m
+[1.216s] [ 55%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_msg/msg/detail/dds_fastrtps/model_pose_array__type_support.cpp.o[0m
+[1.216s] [ 58%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_msg/msg/detail/dds_fastrtps/model_pose__type_support.cpp.o[0m
+[1.253s] [ 62%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_msg/msg/model_pose__type_support.cpp.o[0m
+[1.254s] [ 65%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_msg/msg/model_pose_array__type_support.cpp.o[0m
+[1.277s] [ 68%] [32m[1mLinking CXX shared library libpose_msg__rosidl_typesupport_c.so[0m
+[1.277s] [ 72%] [32mBuilding C object CMakeFiles/pose_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_msg/msg/detail/model_pose__type_support.c.o[0m
+[1.277s] [ 75%] [32mBuilding C object CMakeFiles/pose_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_msg/msg/detail/model_pose_array__type_support.c.o[0m
+[1.284s] [ 79%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_msg/msg/detail/model_pose_array__type_support_c.cpp.o[0m
+[1.284s] [ 82%] [32mBuilding CXX object CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_msg/msg/detail/model_pose__type_support_c.cpp.o[0m
+[1.305s] [ 82%] Built target pose_msg__rosidl_typesupport_c
+[1.307s] [ 86%] [32m[1mLinking C shared library libpose_msg__rosidl_typesupport_introspection_c.so[0m
+[1.333s] [ 86%] Built target pose_msg__rosidl_typesupport_introspection_c
+[1.394s] [ 89%] [32m[1mLinking CXX shared library libpose_msg__rosidl_typesupport_cpp.so[0m
+[1.425s] [ 89%] Built target pose_msg__rosidl_typesupport_cpp
+[1.440s] [ 93%] [32m[1mLinking CXX shared library libpose_msg__rosidl_typesupport_fastrtps_c.so[0m
+[1.445s] [ 96%] [32m[1mLinking CXX shared library libpose_msg__rosidl_typesupport_introspection_cpp.so[0m
+[1.478s] [100%] [32m[1mLinking CXX shared library libpose_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.488s] [100%] Built target pose_msg__rosidl_typesupport_introspection_cpp
+[1.490s] [100%] Built target pose_msg__rosidl_typesupport_fastrtps_c
+[1.524s] [100%] Built target pose_msg__rosidl_typesupport_fastrtps_cpp
+[1.536s] [100%] Built target pose_msg
+[1.545s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg -- -j32 -l32
+[1.547s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg
+[1.553s] -- Install configuration: ""
+[1.553s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/ament_index/resource_index/rosidl_interfaces/pose_msg
+[1.553s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.553s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.553s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/rosidl_generator_c__visibility_control.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/model_pose.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__functions.c
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__type_support.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__functions.c
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__functions.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__functions.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__struct.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__type_support.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__struct.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/model_pose_array.h
+[1.554s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/library_path.sh
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/library_path.dsv
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_generator_c.so
+[1.555s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_generator_c.so" to ""
+[1.555s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.555s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.555s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.555s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_fastrtps_c.so
+[1.555s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[1.555s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.556s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/model_pose_array.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.556s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__builder.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__struct.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__type_support.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__traits.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__struct.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__builder.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__traits.hpp
+[1.556s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__type_support.hpp
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/model_pose.hpp
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/dds_fastrtps
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.557s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.557s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__rosidl_typesupport_introspection_c.h
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__rosidl_typesupport_introspection_c.h
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__type_support.c
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__type_support.c
+[1.557s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_introspection_c.so
+[1.558s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_introspection_c.so" to ""
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_c.so
+[1.558s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_c.so" to ""
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose__type_support.cpp
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/include/pose_msg/pose_msg/msg/detail/model_pose_array__type_support.cpp
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_introspection_cpp.so
+[1.558s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_cpp.so
+[1.558s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib/libpose_msg__rosidl_typesupport_cpp.so" to ""
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPoseArray.idl
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPose.idl
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPoseArray.msg
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPose.msg
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPoseArray.msg
+[1.558s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/msg/ModelPose.msg
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/ament_index/resource_index/package_run_dependencies/pose_msg
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/ament_index/resource_index/parent_prefix_path/pose_msg
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/ament_prefix_path.sh
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/ament_prefix_path.dsv
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/path.sh
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/environment/path.dsv
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/local_setup.bash
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/local_setup.sh
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/local_setup.zsh
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/local_setup.dsv
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/package.dsv
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/ament_index/resource_index/packages/pose_msg
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_generator_cExport.cmake
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_generator_cExport-noconfig.cmake
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.558s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_generator_cppExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/export_pose_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_cExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_cppExport.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/rosidl_cmake-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msgConfig.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake/pose_msgConfig-version.cmake
+[1.559s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/package.xml
+[1.560s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg

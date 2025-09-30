@@ -1,0 +1,8 @@
+<launch>
+    <arg name="TeamName" default="TeamA" description = "队伍名称"/>
+    <arg name="ContinueTime" default="10" description =  "比赛持续时间 单位 : s"/>
+    <node pkg="referee_pkg" exec="referee" name="referee" output="screen">
+        <param name="TeamName" value="$(var TeamName)"/>
+        <param name="ContinueTime" value="$(var ContinueTime)"/>
+    </node>
+</launch>

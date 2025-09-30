@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/player_pkg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.302s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.356s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.377s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.380s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.476s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.493s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Looking for pthread.h
+[0.566s] -- Looking for pthread.h - found
+[0.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.615s] -- Found Threads: TRUE  
+[0.639s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.668s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.668s] -- Found pose_msg: 0.0.0 (/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake)
+[0.675s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.685s] -- Found referee_pkg: 0.0.0 (/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake)
+[0.726s] -- Configuring done
+[0.732s] -- Generating done
+[0.734s] -- Build files have been written to: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg
+[0.740s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/player_pkg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg
+[0.740s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg -- -j32 -l32
+[0.774s] [ 50%] [32mBuilding CXX object CMakeFiles/TestNode.dir/src/test.cpp.o[0m
+[5.191s] [100%] [32m[1mLinking CXX executable TestNode[0m
+[5.559s] [100%] Built target TestNode
+[5.570s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg -- -j32 -l32
+[5.572s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg
+[5.576s] -- Install configuration: ""
+[5.576s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/lib/player_pkg/TestNode
+[5.577s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/lib/player_pkg/TestNode" to ""
+[5.577s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/ament_index/resource_index/package_run_dependencies/player_pkg
+[5.577s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/ament_index/resource_index/parent_prefix_path/player_pkg
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/environment/ament_prefix_path.sh
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/environment/ament_prefix_path.dsv
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/environment/path.sh
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/environment/path.dsv
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/local_setup.bash
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/local_setup.sh
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/local_setup.zsh
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/local_setup.dsv
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/package.dsv
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/ament_index/resource_index/packages/player_pkg
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/cmake/player_pkgConfig.cmake
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/cmake/player_pkgConfig-version.cmake
+[5.578s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg/share/player_pkg/package.xml
+[5.579s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/player_pkg

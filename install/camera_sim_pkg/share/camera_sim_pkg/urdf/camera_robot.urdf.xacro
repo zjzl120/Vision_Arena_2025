@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+
+
+<robot name="camera_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:arg name="width" default="640"/>
+  <xacro:arg name="height" default="480"/>
+  <xacro:arg name="fps" default="30"/>
+  <pose>0 0 0 0 0 0</pose>
+  <link name="base_link">
+    <visual>
+      <!-- <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 1.0"/> -->
+      <geometry>
+        <cylinder radius="0.01" length="0.1"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1.0 1.0 1.0 0.5"/>
+      </material>
+    </visual>
+    <collision>
+      <!-- 0 up bule 1 green  -->
+      <!-- <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 1.0"/> -->
+      <geometry>
+        <cylinder radius="0.01" length="0.1"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1.0 1.0 1.0 0.5"/>
+      </material>
+    </collision>
+    <inertial>
+      <mass value="2.0"/>
+      <inertia ixx="0.3333333333333333" ixy="0.0" ixz="0.0" iyy="0.3333333333333333" iyz="0.0" izz="0.3333333333333333"/>
+    </inertial>
+  </link>
+  <gazebo reference="base_link">
+    <material>Gazebo/Blue</material>
+    
+  </gazebo>
+  <link name="cam0_link">
+  <pose>0 0 0 0 0 0</pose>
+    <visual>
+      <!-- <origin rpy="0 0.0 0.0 " xyz="0.0 0.0 0.0"/> -->
+      <geometry>
+        <box size="0.2 0.4 0.1"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <!-- <origin rpy="0 0.0 0.0 " xyz="0.0 0.0 0.0"/> -->
+      <geometry>
+        <box size="0.2 0.5 0.1"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+      </material>
+    </collision>
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.0016666666666666668" ixy="0.0" ixz="0.0" iyy="0.0016666666666666668" iyz="0.0" izz="0.0016666666666666668"/>
+    </inertial>
+  </link>
+  <joint name="cam0_link" type="fixed">
+    <parent link="base_link"/>
+    <child link="cam0_link"/>
+    <origin rpy="0.0 0.0 1.5707963267948966" xyz="0.0 0.0 0.0"/>
+  </joint>
+<gazebo reference="cam0_link">
+    <sensor name="camera_sensor" type="camera">
+      <update_rate>$(arg fps)</update_rate>
+      <camera name="camera">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>$(arg width)</width>
+          <height>$(arg height)</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>100.0</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin filename="install/camera/lib/libcamera.so" name="camera_controller">
+        <ros>
+          <!-- <namespace></namespace>
+          <argument>~/image_raw:=image_raw</argument>
+          <argument>~/camera_info:=camera_info</argument> -->
+        </ros>
+        <camera_name>camera</camera_name>
+        <frame_name>cam0_link</frame_name>
+        <hack_baseline>0.07</hack_baseline>
+      </plugin>
+    </sensor>       
+      </gazebo>
+</robot>

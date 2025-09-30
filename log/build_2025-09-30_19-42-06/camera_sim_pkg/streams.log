@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg -- -j32 -l32
+[0.030s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg -- -j32 -l32
+[0.035s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg
+[0.040s] -- Install configuration: ""
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//launch
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//launch/camera.launch.py
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//urdf
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//urdf/camera_robot.urdf.xacro
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//worlds
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg//worlds/arena.world
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/ament_index/resource_index/package_run_dependencies/camera_sim_pkg
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/ament_index/resource_index/parent_prefix_path/camera_sim_pkg
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/environment/ament_prefix_path.sh
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/environment/ament_prefix_path.dsv
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/environment/path.sh
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/environment/path.dsv
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/local_setup.bash
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/local_setup.sh
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/local_setup.zsh
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/local_setup.dsv
+[0.041s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/package.dsv
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/ament_index/resource_index/packages/camera_sim_pkg
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/cmake/camera_sim_pkgConfig.cmake
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/cmake/camera_sim_pkgConfig-version.cmake
+[0.041s] -- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg/share/camera_sim_pkg/package.xml
+[0.042s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/camera_sim_pkg

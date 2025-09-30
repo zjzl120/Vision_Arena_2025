@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+	<model name="armor_red_4">
+		<static>false</static>
+		<pose>0.0 0.0 0.0 0 0 3.14</pose>
+		<gravity>false</gravity>
+		<link name="armor">
+			<gravity>false</gravity>
+			<inertial>
+				<pose>0 0 0 0 0 0</pose>
+				<mass>0.1</mass>
+				<inertia>
+					<ixx>0.0003065083333333333</ixx>
+					<ixy>0</ixy>
+					<ixz>0</ixz>
+					<iyy>0.0001421774166666667</iyy>
+					<iyz>0</iyz>
+					<izz>0.0001670190833333333</izz>
+				</inertia>
+			</inertial>
+			<visual name="visual">
+				<geometry>
+					<mesh>
+						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor.dae</uri>
+						<scale>7.5 5 4</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>0.1 0.1 0.1</ambient>
+					<diffuse>0.05 0.05 0.05</diffuse>
+					<specular>0.6 0.6 0.6</specular>
+				</material>
+			</visual>
+			<visual name="target_visual">
+				<geometry>
+
+					<mesh>
+						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_target.dae</uri>
+						<scale>7.5 5 4</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>0.1 0.1 0.1</ambient>
+					<diffuse>0.05 0.05 0.05</diffuse>
+					<specular>0.6 0.6 0.6</specular>
+				</material>
+			</visual>
+			<visual name="light_bar_visual">
+				<geometry>
+
+					<mesh>
+						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_light_bar.dae</uri>
+						<scale>7.5 5 4</scale>
+					</mesh>
+				</geometry>
+				<material>
+					<ambient>1.0 0 0</ambient>
+					<diffuse>1.0 0 0</diffuse>
+					<emissive>1.0 0 0</emissive>
+					<specular>0.5 0.5 0.5</specular>
+				</material>
+			</visual>
+			<visual name="sticker_visual">
+				<pose>0.12 0 0.25 1.5708 0 1.5708</pose>
+				<geometry>
+					<plane>
+						<normal>0 0 1</normal>
+						<size>0.65 0.48</size>
+					</plane>
+				</geometry>
+				<material>
+					<script>
+						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/</uri>
+						<name>small_num4</name>
+					</script>
+				</material>
+				<!-- 让 PNG 透明通道生效 -->
+
+			</visual>
+
+			<collision name="collision">
+				<pose>0 0 0 0 0 0</pose>
+				<geometry>
+					<box>
+						<size>1.5 1.0 0.8</size>
+					</box>
+				</geometry>
+			</collision>
+			<collision name="target_collision">
+				<pose>0 0 0 0 0 0</pose>
+				<geometry>
+					<box>
+						<size>1.5 1.0 0.8</size>
+					</box>
+				</geometry>
+			</collision>
+		</link>
+		<plugin name ="target_action" filename="libtarget_model_pkg_lib.so">
+		</plugin>
+	</model>
+</sdf>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

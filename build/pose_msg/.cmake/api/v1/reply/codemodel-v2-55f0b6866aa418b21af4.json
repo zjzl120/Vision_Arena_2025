@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-14ce60c38e016e566e1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pose_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg-dc798e142d3239d5111a.json",
+					"name" : "pose_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__cpp-ac79d9e26ad10b6d0b13.json",
+					"name" : "pose_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_generator_c-0696e146d33193912d0e.json",
+					"name" : "pose_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_c-95718915da5fed90a566.json",
+					"name" : "pose_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_cpp-fd03e17730c10a881868.json",
+					"name" : "pose_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_fastrtps_c-28a0a4fdeff7809b28b6.json",
+					"name" : "pose_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_fastrtps_cpp-7c8689402ac6d1107995.json",
+					"name" : "pose_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_introspection_c-7c073a98d47469de0a84.json",
+					"name" : "pose_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg__rosidl_typesupport_introspection_cpp-a44914c112c9bd8e5c7c.json",
+					"name" : "pose_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_msg_uninstall-38f4f9f55ab9bde1e146.json",
+					"name" : "pose_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b57f8279d3c87fd89eac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/pose_msg",
+		"source" : "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/ros_gazebo_plugin/msg/pose_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

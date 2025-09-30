@@ -1,0 +1,4 @@
+source;share/player_pkg/local_setup.bash
+source;share/player_pkg/local_setup.dsv
+source;share/player_pkg/local_setup.sh
+source;share/player_pkg/local_setup.zsh

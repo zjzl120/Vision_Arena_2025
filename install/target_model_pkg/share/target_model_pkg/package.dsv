@@ -1,0 +1,11 @@
+source;share/target_model_pkg/hook/cmake_prefix_path.ps1
+source;share/target_model_pkg/hook/cmake_prefix_path.dsv
+source;share/target_model_pkg/hook/cmake_prefix_path.sh
+source;share/target_model_pkg/hook/ld_library_path_lib.ps1
+source;share/target_model_pkg/hook/ld_library_path_lib.dsv
+source;share/target_model_pkg/hook/ld_library_path_lib.sh
+source;share/target_model_pkg/local_setup.bash
+source;share/target_model_pkg/local_setup.dsv
+source;share/target_model_pkg/local_setup.ps1
+source;share/target_model_pkg/local_setup.sh
+source;share/target_model_pkg/local_setup.zsh

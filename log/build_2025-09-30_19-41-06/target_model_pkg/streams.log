@@ -1,0 +1,180 @@
+[0.007s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/target_model_pkg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg
+[0.014s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.080s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.095s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.102s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.103s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.106s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.132s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.145s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.154s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.160s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.171s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.176s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.183s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.201s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.205s] -- Found pose_msg: 0.0.0 (/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake)
+[0.216s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.216s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.216s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.216s]   problems in calling code that expects `find_package` result variables
+[0.216s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.216s] Call Stack (most recent call first):
+[0.216s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.216s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.216s]   CMakeLists.txt:18 (find_package)
+[0.216s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.216s] [0m
+[0.216s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.216s] -- Checking for module 'bullet>=2.82'
+[0.226s] --   Found bullet, version 3.05
+[0.299s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.336s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.350s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.368s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.379s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.383s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.389s] -- Searching for dependencies of ignition-math6
+[0.390s] -- Looking for OGRE...
+[0.390s] -- OGRE_PREFIX_WATCH changed.
+[0.394s] -- Checking for module 'OGRE'
+[0.403s] --   Found OGRE, version 1.9.0
+[0.426s] -- Found Ogre Ghadamon (1.9.0)
+[0.429s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.435s] -- Looking for OGRE_Paging...
+[0.437s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.438s] -- Looking for OGRE_Terrain...
+[0.440s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.440s] -- Looking for OGRE_Property...
+[0.443s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.443s] -- Looking for OGRE_RTShaderSystem...
+[0.445s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.445s] -- Looking for OGRE_Volume...
+[0.448s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.448s] -- Looking for OGRE_Overlay...
+[0.450s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.505s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.506s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.506s] -- Searching for dependencies of ignition-transport8
+[0.516s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.523s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.527s] -- Checking for module 'libzmq >= 4'
+[0.538s] --   Found libzmq , version 4.3.4
+[0.564s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.569s] -- Checking for module 'uuid'
+[0.578s] --   Found uuid, version 2.37.2
+[0.602s] -- Found UUID: TRUE  
+[0.605s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.605s] -- Searching for dependencies of ignition-msgs5
+[0.618s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.621s] -- Checking for module 'tinyxml2'
+[0.631s] --   Found tinyxml2, version 9.0.0
+[0.655s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.657s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.658s] -- Searching for dependencies of ignition-common3
+[0.658s] -- Looking for dlfcn.h - found
+[0.659s] -- Looking for libdl - found
+[0.660s] -- Found DL: TRUE  
+[0.669s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[0.670s] -- Searching for <ignition-common3> component [graphics]
+[0.671s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.671s] -- Searching for dependencies of ignition-common3-graphics
+[0.671s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.674s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.674s] -- Searching for dependencies of ignition-fuel_tools4
+[0.731s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.739s] -- Checking for module 'jsoncpp'
+[0.748s] --   Found jsoncpp, version 1.9.5
+[0.772s] -- Found JSONCPP: TRUE  
+[0.776s] -- Checking for module 'libzip'
+[0.785s] --   Found libzip, version 1.7.3
+[0.809s] -- Found ZIP: TRUE  
+[0.809s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.810s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.810s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.813s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.813s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.853s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.853s] -- Configured cppcheck include dirs: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/target_model_pkg/include
+[0.853s] -- Configured cppcheck exclude dirs and/or files: 
+[0.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.854s] -- Added test 'lint_cmake' to check CMake code style
+[0.854s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.855s] -- Added test 'uncrustify' to check C / C++ code style
+[0.855s] -- Configured uncrustify additional arguments: 
+[0.855s] -- Added test 'xmllint' to check XML markup files
+[0.856s] -- Configuring done
+[0.864s] -- Generating done
+[0.867s] -- Build files have been written to: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg
+[0.874s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/target_model_pkg -DCMAKE_INSTALL_PREFIX=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg
+[0.875s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg -- -j32 -l32
+[0.911s] [ 50%] [32mBuilding CXX object CMakeFiles/target_model_pkg_lib.dir/src/target_action.cpp.o[0m
+[10.289s] [100%] [32m[1mLinking CXX shared library libtarget_model_pkg_lib.so[0m
+[10.705s] [100%] Built target target_model_pkg_lib
+[10.717s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --build /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg -- -j32 -l32
+[10.718s] Invoking command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg
+[10.724s] -- Install configuration: ""
+[10.724s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib/libtarget_model_pkg_lib.so
+[10.730s] -- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib/libtarget_model_pkg_lib.so" to ""
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/include/
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/include//target_model_pkg
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/include//target_model_pkg/target_action.hpp
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/launch
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/launch/target_action.launch.py
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_1.sdf
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_3.sdf
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_2.config
+[10.730s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_3.config
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_5.config
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_4.config
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num3.png
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num2.material
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num1.material
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num5.material
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num5.png
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num4.png
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num4.material
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num2.png
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num3.material
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/small_num1.png
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_4.sdf
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/armor_support_frame.stl
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/large_armor_screw.stl
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_target.dae
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/large_armor_target.stl
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_light_bar.dae
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/large_armor.stl
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/large_armor_light_bar.stl
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor.dae
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_2.sdf
+[10.731s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_5.sdf
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/armor/armor_1.config
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/rectangle
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/rectangle/rectangle.config
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/rectangle/rectangle.sdf
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/sphere
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/sphere/sphere.config
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/urdf/sphere/sphere.sdf
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/ament_index/resource_index/package_run_dependencies/target_model_pkg
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/ament_index/resource_index/parent_prefix_path/target_model_pkg
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/environment/ament_prefix_path.sh
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/environment/ament_prefix_path.dsv
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/environment/path.sh
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/environment/path.dsv
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/local_setup.bash
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/local_setup.sh
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/local_setup.zsh
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/local_setup.dsv
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/package.dsv
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/ament_index/resource_index/packages/target_model_pkg
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/cmake/target_model_pkgConfig.cmake
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/cmake/target_model_pkgConfig-version.cmake
+[10.732s] -- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/share/target_model_pkg/package.xml
+[10.733s] Invoked command in '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg' returned '0': CMAKE_PREFIX_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64 /usr/bin/cmake --install /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/target_model_pkg
