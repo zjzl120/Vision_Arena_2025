@@ -67,7 +67,6 @@ docker-compose up
 ├── src/                    # 例程源代码
 ├── results/                  # 得分结果文件
 └── docs/                    # 完整文档
-
 ```
 
 

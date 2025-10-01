@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+    <model name="arrow">
+        <static>false</static>
+        <gravity>false</gravity>
+        <pose>0 0 0 0 0 4.71</pose>
+        <link name="arrow">
+            <gravity>false</gravity>
+            <inertial>
+                <pose>0 0 0 0 0 0</pose>
+                <mass>0.1</mass>
+                <inertia>
+                    <ixx>0.0003065083333333333</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>0.0001421774166666667</iyy>
+                    <iyz>0</iyz>
+                    <izz>0.0001670190833333333</izz>
+                </inertia>
+            </inertial>
+            <visual name="arrow">
+                <geometry>
+                    <mesh>
+                        <uri>
+                            file://install/target_model_pkg/share/target_model_pkg/urdf/arrow/meshes/arrow.dae</uri>
+                        <scale>0.25 0.25 0.25</scale>
+                    </mesh>
+                </geometry>
+<<<<<<< HEAD
+                <material >
+                    <ambient>1.0 0.0 0.0</ambient>
+					<diffuse>1.0 0.0 0.0</diffuse>
+					<specular>0.6 0.6 0.6</specular>
+=======
+                <material>
+                    <ambient>1.0 0.0 0.0</ambient>
+                    <diffuse>1.0 0.0 0.0</diffuse>
+                    <specular>0.6 0.6 0.6</specular>
+>>>>>>> 2b319c6e9303e09a5617b048365f975110dc35c4
+                </material>
+            </visual>
+        </link>
+        <plugin name="control_plugin" filename="libtarget_model_pkg_lib.so">
+
+            <type>2</type>
+        </plugin>
+    </model>
+</sdf>

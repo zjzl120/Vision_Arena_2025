@@ -1,7 +1,0 @@
-geometry_msgs/Point[] modelpoint
-std_msgs/Header header
-float32 g
----
-float32 yaw
-float32 pitch
-float32 roll
