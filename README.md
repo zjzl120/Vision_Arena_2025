@@ -79,15 +79,15 @@ docker-compose up
 
 **话题名称应为** <font style="background-color:#DF2A3F;">/vision/target</font>
 
-**话题消息类型应为 ** <font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>
+**话题消息类型应为** <font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>
 
 **其中消息中的**
 
-**Object[] objects 应以外圆 内圆 的顺序放入 ， 其内的四个点 应为圆上的 以左点为起始逆时针方向的四个点**
+**Object[] objects** 应以外圆 内圆 的顺序放入 ， 其内的四个点 应为圆上的 以左点为起始逆时针方向的四个点
 
-**std_msgs/Header header 应为对应图像消息中的时间戳**
+**std_msgs/Header header** 应为对应图像消息中的时间戳
 
-**uint32 num_objects   要求为2**
+**uint32 num_objects**   要求为2
 
 ### STAGE_2
 本阶段选手发布者发布的
@@ -96,7 +96,7 @@ docker-compose up
 
 **话题消息类型应为**<font style="background-color:#DF2A3F;">referee_pkg::msg::MultiObject </font>
 
-**其中消息中的 **
+**其中消息中的**
 
 **Object[] objects  应至少涵盖要求发布的Arrow_red类型，否则分数为0 ，四个角点的顺序为左下起始逆时针方向**
 
