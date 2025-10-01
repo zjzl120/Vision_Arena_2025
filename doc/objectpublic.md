@@ -4,10 +4,10 @@
 
   ##球
   发送正面圆上的四个点，左点为起始逆时针方向的四个点
-  ![circle](doc/circle.png)
+  ![circle](../resource/circle.png)
   ##立方体
   发送正面方形上的四个点，左下点为起始逆时针方向的四个点
-  ![rect](doc/rect.png)
+  ![rect](../resource/rect.png)
 
   ##装甲板
   发送正面矩形上的四个点，左下点为起始逆时针方向的四个点
