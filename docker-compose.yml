@@ -1,0 +1,96 @@
+version: '3.8'
+
+networks:
+  ros2-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.22.0.0/24
+
+services:
+  gazebo:
+    image: vision-vrena-2025:v0.1.3 
+    container_name: gazebo
+    hostname: gazebo
+    networks:
+      ros2-network:
+        ipv4_address: 172.22.0.10
+    environment:
+      - ROS_DOMAIN_ID=55
+      - ROS_LOCALHOST_ONLY=0
+      - GAZEBO_MASTER_URI=http://localhost:11345
+      - DISPLAY=${DISPLAY}  
+      - QT_X11_NO_MITSHM=1  
+      - XAUTHORITY=/tmp/.docker.xauth
+      - NVIDIA_DRIVER_CAPABILITIES=all  
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix  
+      - ${XAUTHORITY}:/tmp/.docker.xauth  
+    working_dir: /home/va/Vision-Vrena-2025
+    command: >
+      bash -c "
+        cd /home/va/Vision-Vrena-2025 && ls  &&
+        source install/setup.bash &&
+        export GAZEBO_MODE=headless &&  
+        ros2 launch camera_sim_pkg camera.launch.py width:=640 height:=640 fps:=50
+      "
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    privileged: true  
+
+  TestNode:
+    image: vision-vrena-2025:v0.1.3 
+    container_name: TestNode
+    hostname: TestNode
+    networks:
+      ros2-network:
+        ipv4_address: 172.22.0.12
+    environment:
+      - ROS_DOMAIN_ID=55
+      - ROS_LOCALHOST_ONLY=0
+      - GAZEBO_MASTER_URI=http://localhost:11345
+      - DISPLAY=${DISPLAY} 
+      - QT_X11_NO_MITSHM=1  
+      - XAUTHORITY=/tmp/.docker.xauth
+      - NVIDIA_DRIVER_CAPABILITIES=all  
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix 
+      - ${XAUTHORITY}:/tmp/.docker.xauth
+    working_dir: /home/va/Vision-Vrena-2025
+    command: >
+      bash -c "
+        cd /home/va/Vision-Vrena-2025 && ls &&
+        source install/setup.bash &&
+        ros2 run player_pkg TestNode 
+      "
+    # 选手在使用时 ros2 run player_pkg TestNode 将 TestNode 换为选手要启动的节点名字即可
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    depends_on:
+      - gazebo
+
+  referee:
+    image: vision-vrena-2025:v0.1.3 
+    container_name: referee
+    hostname: referee
+    networks:
+      ros2-network:
+        ipv4_address: 172.22.0.11
+    environment:
+      - ROS_DOMAIN_ID=55
+      - ROS_LOCALHOST_ONLY=0
+    working_dir: /home/va/Vision-Vrena-2025
+    command: >
+      bash -c "
+        cd /home/va/Vision-Vrena-2025 && ls && 
+        source install/setup.bash &&
+        ros2 launch referee_pkg referee_pkg_launch.xml
+      "
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    depends_on:
+      - gazebo
+      - TestNode
