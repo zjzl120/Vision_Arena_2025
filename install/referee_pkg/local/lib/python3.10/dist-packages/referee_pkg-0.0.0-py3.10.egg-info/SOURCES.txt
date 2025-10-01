@@ -10,4 +10,5 @@ referee_pkg/msg/_object.py
 referee_pkg/msg/_race_stage.py
 referee_pkg/msg/_target.py
 referee_pkg/srv/__init__.py
+referee_pkg/srv/_hit_armor.py
 referee_pkg/srv/_hit_arror.py

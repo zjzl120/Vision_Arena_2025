@@ -242,14 +242,11 @@ CMakeFiles/referee_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/refe
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/referee_pkg/msg/detail/target__type_support.h \
+  rosidl_generator_c/referee_pkg/msg/detail/object__type_support.h \
   rosidl_generator_c/referee_pkg/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/referee_pkg/msg/detail/target__struct.h \
+  rosidl_generator_c/referee_pkg/msg/detail/object__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/referee_pkg/msg/detail/target__functions.h \
-  rosidl_generator_c/referee_pkg/msg/detail/object__type_support.h \
-  rosidl_generator_c/referee_pkg/msg/detail/object__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/referee_pkg/msg/detail/object__functions.h \
   rosidl_generator_c/referee_pkg/msg/detail/multi_object__type_support.h \
@@ -260,14 +257,12 @@ CMakeFiles/referee_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/refe
   rosidl_generator_c/referee_pkg/msg/detail/race_stage__type_support.h \
   rosidl_generator_c/referee_pkg/msg/detail/race_stage__struct.h \
   rosidl_generator_c/referee_pkg/msg/detail/race_stage__functions.h \
-  rosidl_generator_c/referee_pkg/srv/detail/hit_arror__type_support.h \
-  rosidl_generator_c/referee_pkg/srv/detail/hit_arror__struct.h \
-  rosidl_generator_c/referee_pkg/srv/detail/hit_arror__functions.h
+  rosidl_generator_c/referee_pkg/srv/detail/hit_armor__type_support.h \
+  rosidl_generator_c/referee_pkg/srv/detail/hit_armor__struct.h \
+  rosidl_generator_c/referee_pkg/srv/detail/hit_armor__functions.h
 
 
-rosidl_generator_c/referee_pkg/srv/detail/hit_arror__struct.h:
-
-rosidl_generator_c/referee_pkg/msg/detail/race_stage__struct.h:
+rosidl_generator_c/referee_pkg/srv/detail/hit_armor__functions.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -278,8 +273,6 @@ rosidl_generator_c/referee_pkg/msg/detail/race_stage__struct.h:
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-rosidl_generator_c/referee_pkg/msg/detail/target__struct.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
@@ -393,8 +386,6 @@ rosidl_generator_c/referee_pkg/msg/detail/multi_object__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-rosidl_generator_c/referee_pkg/msg/detail/target__type_support.h:
-
 /usr/include/limits.h:
 
 /usr/include/python3.10/iterobject.h:
@@ -402,6 +393,8 @@ rosidl_generator_c/referee_pkg/msg/detail/target__type_support.h:
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+rosidl_generator_c/referee_pkg/msg/detail/race_stage__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -448,8 +441,6 @@ rosidl_generator_c/referee_pkg/msg/detail/target__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/python3.10/genobject.h:
-
-rosidl_generator_c/referee_pkg/msg/detail/target__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -579,6 +570,8 @@ rosidl_generator_c/referee_pkg/msg/detail/object__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
+rosidl_generator_c/referee_pkg/srv/detail/hit_armor__struct.h:
+
 /usr/include/python3.10/pymem.h:
 
 /usr/include/python3.10/cellobject.h:
@@ -592,8 +585,6 @@ rosidl_generator_c/referee_pkg/msg/detail/object__struct.h:
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/include/python3.10/fileobject.h:
-
-rosidl_generator_c/referee_pkg/srv/detail/hit_arror__type_support.h:
 
 /usr/include/python3.10/exports.h:
 
@@ -629,10 +620,6 @@ rosidl_generator_c/referee_pkg/srv/detail/hit_arror__type_support.h:
 
 /usr/include/python3.10/unicodeobject.h:
 
-rosidl_generator_c/referee_pkg/msg/detail/race_stage__functions.h:
-
-/usr/include/ctype.h:
-
 /usr/include/python3.10/listobject.h:
 
 /usr/include/wchar.h:
@@ -654,8 +641,6 @@ rosidl_generator_c/referee_pkg/msg/detail/race_stage__functions.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
 /usr/include/python3.10/cpython/listobject.h:
-
-/usr/include/python3.10/dictobject.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
@@ -739,8 +724,6 @@ rosidl_generator_c/referee_pkg/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/python3.10/compile.h:
 
-rosidl_generator_c/referee_pkg/srv/detail/hit_arror__functions.h:
-
 /usr/include/python3.10/sysmodule.h:
 
 /usr/include/python3.10/cpython/sysmodule.h:
@@ -748,6 +731,10 @@ rosidl_generator_c/referee_pkg/srv/detail/hit_arror__functions.h:
 /usr/include/python3.10/tracemalloc.h:
 
 /usr/include/python3.10/osmodule.h:
+
+/usr/include/python3.10/dictobject.h:
+
+rosidl_generator_c/referee_pkg/srv/detail/hit_armor__type_support.h:
 
 /usr/include/python3.10/intrcheck.h:
 
@@ -788,3 +775,7 @@ rosidl_generator_c/referee_pkg/msg/detail/multi_object__struct.h:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 rosidl_generator_c/referee_pkg/msg/detail/race_stage__type_support.h:
+
+/usr/include/ctype.h:
+
+rosidl_generator_c/referee_pkg/msg/detail/race_stage__functions.h:

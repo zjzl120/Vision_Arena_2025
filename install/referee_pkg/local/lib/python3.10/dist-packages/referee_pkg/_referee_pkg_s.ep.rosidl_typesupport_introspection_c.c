@@ -24,145 +24,6 @@ static struct PyModuleDef referee_pkg__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "referee_pkg/msg/detail/target__type_support.h"
-#include "referee_pkg/msg/detail/target__struct.h"
-#include "referee_pkg/msg/detail/target__functions.h"
-
-static void * referee_pkg__msg__target__create_ros_message(void)
-{
-  return referee_pkg__msg__Target__create();
-}
-
-static void referee_pkg__msg__target__destroy_ros_message(void * raw_ros_message)
-{
-  referee_pkg__msg__Target * ros_message = (referee_pkg__msg__Target *)raw_ros_message;
-  referee_pkg__msg__Target__destroy(ros_message);
-}
-
-ROSIDL_GENERATOR_C_IMPORT
-bool referee_pkg__msg__target__convert_from_py(PyObject * _pymsg, void * ros_message);
-ROSIDL_GENERATOR_C_IMPORT
-PyObject * referee_pkg__msg__target__convert_to_py(void * raw_ros_message);
-
-
-ROSIDL_GENERATOR_C_IMPORT
-const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, msg, Target);
-
-int8_t
-_register_msg_type__msg__target(PyObject * pymodule)
-{
-  int8_t err;
-
-  PyObject * pyobject_create_ros_message = NULL;
-  pyobject_create_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__msg__target__create_ros_message,
-    NULL, NULL);
-  if (!pyobject_create_ros_message) {
-    // previously added objects will be removed when the module is destroyed
-    return -1;
-  }
-  err = PyModule_AddObject(
-    pymodule,
-    "create_ros_message_msg__msg__target",
-    pyobject_create_ros_message);
-  if (err) {
-    // the created capsule needs to be decremented
-    Py_XDECREF(pyobject_create_ros_message);
-    // previously added objects will be removed when the module is destroyed
-    return err;
-  }
-
-  PyObject * pyobject_destroy_ros_message = NULL;
-  pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__msg__target__destroy_ros_message,
-    NULL, NULL);
-  if (!pyobject_destroy_ros_message) {
-    // previously added objects will be removed when the module is destroyed
-    return -1;
-  }
-  err = PyModule_AddObject(
-    pymodule,
-    "destroy_ros_message_msg__msg__target",
-    pyobject_destroy_ros_message);
-  if (err) {
-    // the created capsule needs to be decremented
-    Py_XDECREF(pyobject_destroy_ros_message);
-    // previously added objects will be removed when the module is destroyed
-    return err;
-  }
-
-  PyObject * pyobject_convert_from_py = NULL;
-  pyobject_convert_from_py = PyCapsule_New(
-    (void *)&referee_pkg__msg__target__convert_from_py,
-    NULL, NULL);
-  if (!pyobject_convert_from_py) {
-    // previously added objects will be removed when the module is destroyed
-    return -1;
-  }
-  err = PyModule_AddObject(
-    pymodule,
-    "convert_from_py_msg__msg__target",
-    pyobject_convert_from_py);
-  if (err) {
-    // the created capsule needs to be decremented
-    Py_XDECREF(pyobject_convert_from_py);
-    // previously added objects will be removed when the module is destroyed
-    return err;
-  }
-
-  PyObject * pyobject_convert_to_py = NULL;
-  pyobject_convert_to_py = PyCapsule_New(
-    (void *)&referee_pkg__msg__target__convert_to_py,
-    NULL, NULL);
-  if (!pyobject_convert_to_py) {
-    // previously added objects will be removed when the module is destroyed
-    return -1;
-  }
-  err = PyModule_AddObject(
-    pymodule,
-    "convert_to_py_msg__msg__target",
-    pyobject_convert_to_py);
-  if (err) {
-    // the created capsule needs to be decremented
-    Py_XDECREF(pyobject_convert_to_py);
-    // previously added objects will be removed when the module is destroyed
-    return err;
-  }
-
-  PyObject * pyobject_type_support = NULL;
-  pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, msg, Target),
-    NULL, NULL);
-  if (!pyobject_type_support) {
-    // previously added objects will be removed when the module is destroyed
-    return -1;
-  }
-  err = PyModule_AddObject(
-    pymodule,
-    "type_support_msg__msg__target",
-    pyobject_type_support);
-  if (err) {
-    // the created capsule needs to be decremented
-    Py_XDECREF(pyobject_type_support);
-    // previously added objects will be removed when the module is destroyed
-    return err;
-  }
-  return 0;
-}
-
-// already included above
-// #include <stdbool.h>
-// already included above
-// #include <stdint.h>
-// already included above
-// #include "rosidl_runtime_c/visibility_control.h"
-// already included above
-// #include "rosidl_runtime_c/message_type_support_struct.h"
-// already included above
-// #include "rosidl_runtime_c/service_type_support_struct.h"
-// already included above
-// #include "rosidl_runtime_c/action_type_support_struct.h"
 #include "referee_pkg/msg/detail/object__type_support.h"
 #include "referee_pkg/msg/detail/object__struct.h"
 #include "referee_pkg/msg/detail/object__functions.h"
@@ -580,39 +441,39 @@ _register_msg_type__msg__race_stage(PyObject * pymodule)
 // #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "referee_pkg/srv/detail/hit_arror__type_support.h"
-#include "referee_pkg/srv/detail/hit_arror__struct.h"
-#include "referee_pkg/srv/detail/hit_arror__functions.h"
+#include "referee_pkg/srv/detail/hit_armor__type_support.h"
+#include "referee_pkg/srv/detail/hit_armor__struct.h"
+#include "referee_pkg/srv/detail/hit_armor__functions.h"
 
-static void * referee_pkg__srv__hit_arror__request__create_ros_message(void)
+static void * referee_pkg__srv__hit_armor__request__create_ros_message(void)
 {
-  return referee_pkg__srv__HitArror_Request__create();
+  return referee_pkg__srv__HitArmor_Request__create();
 }
 
-static void referee_pkg__srv__hit_arror__request__destroy_ros_message(void * raw_ros_message)
+static void referee_pkg__srv__hit_armor__request__destroy_ros_message(void * raw_ros_message)
 {
-  referee_pkg__srv__HitArror_Request * ros_message = (referee_pkg__srv__HitArror_Request *)raw_ros_message;
-  referee_pkg__srv__HitArror_Request__destroy(ros_message);
+  referee_pkg__srv__HitArmor_Request * ros_message = (referee_pkg__srv__HitArmor_Request *)raw_ros_message;
+  referee_pkg__srv__HitArmor_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool referee_pkg__srv__hit_arror__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool referee_pkg__srv__hit_armor__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * referee_pkg__srv__hit_arror__request__convert_to_py(void * raw_ros_message);
+PyObject * referee_pkg__srv__hit_armor__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArror_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArmor_Request);
 
 int8_t
-_register_msg_type__srv__hit_arror__request(PyObject * pymodule)
+_register_msg_type__srv__hit_armor__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__request__create_ros_message,
+    (void *)&referee_pkg__srv__hit_armor__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -620,7 +481,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__hit_arror__request",
+    "create_ros_message_msg__srv__hit_armor__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -631,7 +492,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__request__destroy_ros_message,
+    (void *)&referee_pkg__srv__hit_armor__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -639,7 +500,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__hit_arror__request",
+    "destroy_ros_message_msg__srv__hit_armor__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -650,7 +511,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__request__convert_from_py,
+    (void *)&referee_pkg__srv__hit_armor__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -658,7 +519,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__hit_arror__request",
+    "convert_from_py_msg__srv__hit_armor__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -669,7 +530,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__request__convert_to_py,
+    (void *)&referee_pkg__srv__hit_armor__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -677,7 +538,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__hit_arror__request",
+    "convert_to_py_msg__srv__hit_armor__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -688,7 +549,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArror_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArmor_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -696,7 +557,7 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__hit_arror__request",
+    "type_support_msg__srv__hit_armor__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -720,41 +581,41 @@ _register_msg_type__srv__hit_arror__request(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "referee_pkg/srv/detail/hit_arror__type_support.h"
+// #include "referee_pkg/srv/detail/hit_armor__type_support.h"
 // already included above
-// #include "referee_pkg/srv/detail/hit_arror__struct.h"
+// #include "referee_pkg/srv/detail/hit_armor__struct.h"
 // already included above
-// #include "referee_pkg/srv/detail/hit_arror__functions.h"
+// #include "referee_pkg/srv/detail/hit_armor__functions.h"
 
-static void * referee_pkg__srv__hit_arror__response__create_ros_message(void)
+static void * referee_pkg__srv__hit_armor__response__create_ros_message(void)
 {
-  return referee_pkg__srv__HitArror_Response__create();
+  return referee_pkg__srv__HitArmor_Response__create();
 }
 
-static void referee_pkg__srv__hit_arror__response__destroy_ros_message(void * raw_ros_message)
+static void referee_pkg__srv__hit_armor__response__destroy_ros_message(void * raw_ros_message)
 {
-  referee_pkg__srv__HitArror_Response * ros_message = (referee_pkg__srv__HitArror_Response *)raw_ros_message;
-  referee_pkg__srv__HitArror_Response__destroy(ros_message);
+  referee_pkg__srv__HitArmor_Response * ros_message = (referee_pkg__srv__HitArmor_Response *)raw_ros_message;
+  referee_pkg__srv__HitArmor_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool referee_pkg__srv__hit_arror__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool referee_pkg__srv__hit_armor__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * referee_pkg__srv__hit_arror__response__convert_to_py(void * raw_ros_message);
+PyObject * referee_pkg__srv__hit_armor__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArror_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArmor_Response);
 
 int8_t
-_register_msg_type__srv__hit_arror__response(PyObject * pymodule)
+_register_msg_type__srv__hit_armor__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__response__create_ros_message,
+    (void *)&referee_pkg__srv__hit_armor__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -762,7 +623,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__hit_arror__response",
+    "create_ros_message_msg__srv__hit_armor__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -773,7 +634,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__response__destroy_ros_message,
+    (void *)&referee_pkg__srv__hit_armor__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -781,7 +642,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__hit_arror__response",
+    "destroy_ros_message_msg__srv__hit_armor__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -792,7 +653,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__response__convert_from_py,
+    (void *)&referee_pkg__srv__hit_armor__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -800,7 +661,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__hit_arror__response",
+    "convert_from_py_msg__srv__hit_armor__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -811,7 +672,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&referee_pkg__srv__hit_arror__response__convert_to_py,
+    (void *)&referee_pkg__srv__hit_armor__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -819,7 +680,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__hit_arror__response",
+    "convert_to_py_msg__srv__hit_armor__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -830,7 +691,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArror_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(referee_pkg, srv, HitArmor_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -838,7 +699,7 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__hit_arror__response",
+    "type_support_msg__srv__hit_armor__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -851,15 +712,15 @@ _register_msg_type__srv__hit_arror__response(PyObject * pymodule)
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, referee_pkg, srv, HitArror)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, referee_pkg, srv, HitArmor)();
 
 int8_t
-_register_srv_type__srv__hit_arror(PyObject * pymodule)
+_register_srv_type__srv__hit_armor(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, referee_pkg, srv, HitArror)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, referee_pkg, srv, HitArmor)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -867,7 +728,7 @@ _register_srv_type__srv__hit_arror(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__srv__hit_arror",
+    "type_support_srv__srv__hit_armor",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -888,12 +749,6 @@ PyInit_referee_pkg_s__rosidl_typesupport_introspection_c(void)
   }
   int8_t err;
 
-  err = _register_msg_type__msg__target(pymodule);
-  if (err) {
-    Py_XDECREF(pymodule);
-    return NULL;
-  }
-
   err = _register_msg_type__msg__object(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
@@ -912,19 +767,19 @@ PyInit_referee_pkg_s__rosidl_typesupport_introspection_c(void)
     return NULL;
   }
 
-  err = _register_msg_type__srv__hit_arror__request(pymodule);
+  err = _register_msg_type__srv__hit_armor__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__hit_arror__response(pymodule);
+  err = _register_msg_type__srv__hit_armor__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__srv__hit_arror(pymodule);
+  err = _register_srv_type__srv__hit_armor(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

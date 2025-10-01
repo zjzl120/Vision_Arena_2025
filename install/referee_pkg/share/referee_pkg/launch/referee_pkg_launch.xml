@@ -1,8 +1,12 @@
 <launch>
-    <arg name="TeamName" default="TeamA" description = "队伍名称"/>
-    <arg name="ContinueTime" default="10" description =  "比赛持续时间 单位 : s"/>
+    <arg name="TeamName" default="TeamA" description="队伍名称" />
+    <arg name="ContinueTime" default="10" description="比赛持续时间 单位 : s" />
+    <arg name="StageSelect" default="0" description="起始阶段选择 : 0,1,2,3,4,5" />
+    <arg name="ModeSelect" default="0" description="模式选择 {0: 恒定模式 , 1 : 顺序模式}" />
     <node pkg="referee_pkg" exec="referee" name="referee" output="screen">
-        <param name="TeamName" value="$(var TeamName)"/>
-        <param name="ContinueTime" value="$(var ContinueTime)"/>
+        <param name="TeamName" value="$(var TeamName)" />
+        <param name="ContinueTime" value="$(var ContinueTime)" />
+        <param name="StageSelect" value="$(var StageSelect)" />
+        <param name="ModeSelect" value="$(var ModeSelect)" />
     </node>
 </launch>

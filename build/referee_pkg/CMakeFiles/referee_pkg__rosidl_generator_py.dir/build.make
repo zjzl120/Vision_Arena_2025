@@ -69,24 +69,10 @@ include CMakeFiles/referee_pkg__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o: rosidl_generator_py/referee_pkg/msg/_target_s.c
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_target_s.c
-
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_target_s.c > CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.i
-
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_target_s.c -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.s
-
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o: rosidl_generator_py/referee_pkg/msg/_object_s.c
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_object_s.c
 
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o: rosidl_generator_py/referee_pkg/msg/_multi_object_s.c
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c
 
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o: rosidl_generator_py/referee_pkg/msg/_race_stage_s.c
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c
 
 CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.i: cmake_force
@@ -125,36 +111,34 @@ CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.s
 
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o: rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c
+CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/flags.make
+CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o: rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c
+CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o: CMakeFiles/referee_pkg__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o -MF CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o.d -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o -c /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c
 
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c > CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.i
+CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c > CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.i
 
-CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.s
+CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c -o CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.s
 
 # Object files for target referee_pkg__rosidl_generator_py
 referee_pkg__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o" \
 "CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o" \
 "CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o" \
 "CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o" \
-"CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o"
+"CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o"
 
 # External object files for target referee_pkg__rosidl_generator_py
 referee_pkg__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_target_s.c.o
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o
-rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c.o
+rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/build.make
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: libreferee_pkg__rosidl_typesupport_c.so
@@ -172,7 +156,7 @@ rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: /opt/ros
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so: CMakeFiles/referee_pkg__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/referee_pkg__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

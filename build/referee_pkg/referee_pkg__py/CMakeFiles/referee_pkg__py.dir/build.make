@@ -69,18 +69,16 @@ include referee_pkg__py/CMakeFiles/referee_pkg__py.dir/progress.make
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_introspection_c.c
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c
-referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_target.py
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_object.py
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_multi_object.py
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_race_stage.py
-referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_arror.py
+referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_armor.py
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/__init__.py
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/srv/__init__.py
-referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_target_s.c
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_object_s.c
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_multi_object_s.c
 referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_race_stage_s.c
-referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c
+referee_pkg__py/CMakeFiles/referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c
 
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -95,11 +93,10 @@ rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/msg/Target.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/msg/Object.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/msg/MultiObject.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/msg/RaceStage.idl
-rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/srv/HitArror.idl
+rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/referee_pkg/srv/HitArmor.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -173,9 +170,6 @@ rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_introspecti
 rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/referee_pkg/msg/_target.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_target.py
-
 rosidl_generator_py/referee_pkg/msg/_object.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_object.py
 
@@ -185,17 +179,14 @@ rosidl_generator_py/referee_pkg/msg/_multi_object.py: rosidl_generator_py/refere
 rosidl_generator_py/referee_pkg/msg/_race_stage.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_race_stage.py
 
-rosidl_generator_py/referee_pkg/srv/_hit_arror.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/srv/_hit_arror.py
+rosidl_generator_py/referee_pkg/srv/_hit_armor.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/srv/_hit_armor.py
 
 rosidl_generator_py/referee_pkg/msg/__init__.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/__init__.py
 
 rosidl_generator_py/referee_pkg/srv/__init__.py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/srv/__init__.py
-
-rosidl_generator_py/referee_pkg/msg/_target_s.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_target_s.c
 
 rosidl_generator_py/referee_pkg/msg/_object_s.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_object_s.c
@@ -206,8 +197,8 @@ rosidl_generator_py/referee_pkg/msg/_multi_object_s.c: rosidl_generator_py/refer
 rosidl_generator_py/referee_pkg/msg/_race_stage_s.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/msg/_race_stage_s.c
 
-rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c
+rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c
 
 referee_pkg__py: referee_pkg__py/CMakeFiles/referee_pkg__py
 referee_pkg__py: rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c
@@ -220,11 +211,9 @@ referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_object.py
 referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_object_s.c
 referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_race_stage.py
 referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_race_stage_s.c
-referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_target.py
-referee_pkg__py: rosidl_generator_py/referee_pkg/msg/_target_s.c
 referee_pkg__py: rosidl_generator_py/referee_pkg/srv/__init__.py
-referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_arror.py
-referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c
+referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_armor.py
+referee_pkg__py: rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c
 referee_pkg__py: referee_pkg__py/CMakeFiles/referee_pkg__py.dir/build.make
 .PHONY : referee_pkg__py
 

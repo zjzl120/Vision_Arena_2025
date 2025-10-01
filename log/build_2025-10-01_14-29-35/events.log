@@ -1,0 +1,521 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (-) JobUnselected: {'identifier': 'player_pkg'}
+[0.000147] (referee_pkg) JobQueued: {'identifier': 'referee_pkg', 'dependencies': OrderedDict()}
+[0.000176] (referee_pkg) JobStarted: {'identifier': 'referee_pkg'}
+[0.004413] (referee_pkg) JobProgress: {'identifier': 'referee_pkg', 'progress': 'cmake'}
+[0.005175] (referee_pkg) JobProgress: {'identifier': 'referee_pkg', 'progress': 'build'}
+[0.005606] (referee_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg', '--', '-j32', '-l32'], 'cwd': '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zjzl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/zjzl'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2023.0.2'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2903'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3492'), ('BUNDLED_DEBUGPY_PATH', '/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18856'), ('COLCON_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zjzl'), ('JOURNAL_STREAM', '8:11549'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2023.0.2/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2023.0.2/runtime/lib/intel64/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zjzl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zjzl/clion-2025.2.1/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/zjzl/.local/bin:/home/zjzl/clion-2025.2.1/bin:/usr/local/cuda-12.4/bin:/home/zjzl/anaconda3/condabin:/opt/ros/humble/bin:/home/zjzl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/zjzl/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/zjzl-Legion-Y9000P-IRX9:@/tmp/.ICE-unix/3465,unix/zjzl-Legion-Y9000P-IRX9:/tmp/.ICE-unix/3465'), ('INVOCATION_ID', 'b51d187a1b5b4b9d89ef95edfd077e91'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-abe248ba8cd8be85.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zjzl/.config/Code/User/workspaceStorage/08be5d424e80791f6d35b2dd1b177a40/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-88d864616a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zjzl/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('InferenceEngine_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zjzl/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages:/opt/intel/openvino_2023.0.2/python/python3.10:/opt/intel/openvino_2023.0.2/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2023.0.2/python/python3.10:/opt/intel/openvino_2023.0.2/python/python3:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('OpenVINO_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble')]), 'shell': False}
+[0.022997] (referee_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.091873] (referee_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099747] (-) TimerEvent: {}
+[0.104913] (referee_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.105946] (referee_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.108552] (referee_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.112961] (referee_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.118337] (referee_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.132667] (referee_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.133345] (referee_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.189585] (referee_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.199811] (-) TimerEvent: {}
+[0.213696] (referee_pkg) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.238982] (referee_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.240847] (referee_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.285793] (referee_pkg) StdoutLine: {'line': b'-- Found pose_msg: 0.0.0 (/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/share/pose_msg/cmake)\n'}
+[0.293463] (referee_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.299877] (-) TimerEvent: {}
+[0.301760] (referee_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.399959] (-) TimerEvent: {}
+[0.485253] (referee_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500022] (-) TimerEvent: {}
+[0.600212] (-) TimerEvent: {}
+[0.700465] (-) TimerEvent: {}
+[0.706466] (referee_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.787824] (referee_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800616] (-) TimerEvent: {}
+[0.800892] (referee_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.812436] (referee_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.812519] (referee_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.812546] (referee_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.836651] (referee_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.864577] (referee_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.871987] (referee_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg\n'}
+[0.892151] (referee_pkg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.900048] (referee_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.900823] (-) TimerEvent: {}
+[0.909735] (referee_pkg) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_referee_pkg\n'}
+[1.000966] (-) TimerEvent: {}
+[1.022209] (referee_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.022601] (referee_pkg) StdoutLine: {'line': b'writing referee_pkg.egg-info/PKG-INFO\n'}
+[1.022704] (referee_pkg) StdoutLine: {'line': b'writing dependency_links to referee_pkg.egg-info/dependency_links.txt\n'}
+[1.022735] (referee_pkg) StdoutLine: {'line': b'writing top-level names to referee_pkg.egg-info/top_level.txt\n'}
+[1.023776] (referee_pkg) StdoutLine: {'line': b"reading manifest file 'referee_pkg.egg-info/SOURCES.txt'\n"}
+[1.024113] (referee_pkg) StdoutLine: {'line': b"writing manifest file 'referee_pkg.egg-info/SOURCES.txt'\n"}
+[1.039869] (referee_pkg) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_referee_pkg_egg\n'}
+[1.101057] (-) TimerEvent: {}
+[1.108166] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_generator_c\x1b[0m\n'}
+[1.115221] (referee_pkg) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_c.dir/rosidl_generator_c/referee_pkg/msg/detail/object__functions.c.o\x1b[0m\n'}
+[1.115383] (referee_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_c.dir/rosidl_generator_c/referee_pkg/msg/detail/multi_object__functions.c.o\x1b[0m\n'}
+[1.115502] (referee_pkg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_c.dir/rosidl_generator_c/referee_pkg/msg/detail/race_stage__functions.c.o\x1b[0m\n'}
+[1.115708] (referee_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_c.dir/rosidl_generator_c/referee_pkg/srv/detail/hit_armor__functions.c.o\x1b[0m\n'}
+[1.120441] (referee_pkg) StdoutLine: {'line': b'[ 10%] Built target referee_pkg__cpp\n'}
+[1.126961] (referee_pkg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.127111] (referee_pkg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.127985] (referee_pkg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.148344] (referee_pkg) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libreferee_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[1.172741] (referee_pkg) StdoutLine: {'line': b'[ 17%] Built target referee_pkg__rosidl_generator_c\n'}
+[1.180413] (referee_pkg) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.181143] (referee_pkg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.181235] (referee_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.201165] (-) TimerEvent: {}
+[1.292393] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.301258] (-) TimerEvent: {}
+[1.303517] (referee_pkg) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/referee_pkg/msg/object__type_support.cpp.o\x1b[0m\n'}
+[1.303794] (referee_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/referee_pkg/msg/multi_object__type_support.cpp.o\x1b[0m\n'}
+[1.304047] (referee_pkg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/referee_pkg/msg/race_stage__type_support.cpp.o\x1b[0m\n'}
+[1.304332] (referee_pkg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/referee_pkg/srv/hit_armor__type_support.cpp.o\x1b[0m\n'}
+[1.327706] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.327875] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.341526] (referee_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/referee_pkg/msg/detail/object__type_support.cpp.o\x1b[0m\n'}
+[1.341740] (referee_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/referee_pkg/srv/detail/hit_armor__type_support.cpp.o\x1b[0m\n'}
+[1.341816] (referee_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/referee_pkg/msg/detail/dds_fastrtps/multi_object__type_support.cpp.o\x1b[0m\n'}
+[1.341880] (referee_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/referee_pkg/msg/detail/multi_object__type_support.cpp.o\x1b[0m\n'}
+[1.341942] (referee_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/referee_pkg/msg/detail/dds_fastrtps/object__type_support.cpp.o\x1b[0m\n'}
+[1.342002] (referee_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/referee_pkg/msg/detail/race_stage__type_support.cpp.o\x1b[0m\n'}
+[1.342061] (referee_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/referee_pkg/msg/detail/dds_fastrtps/race_stage__type_support.cpp.o\x1b[0m\n'}
+[1.342121] (referee_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/referee_pkg/srv/detail/dds_fastrtps/hit_armor__type_support.cpp.o\x1b[0m\n'}
+[1.358364] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[1.369593] (referee_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/referee_pkg/msg/object__type_support.cpp.o\x1b[0m\n'}
+[1.369818] (referee_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/referee_pkg/srv/hit_armor__type_support.cpp.o\x1b[0m\n'}
+[1.369897] (referee_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/referee_pkg/msg/multi_object__type_support.cpp.o\x1b[0m\n'}
+[1.369967] (referee_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/referee_pkg/msg/race_stage__type_support.cpp.o\x1b[0m\n'}
+[1.399455] (referee_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libreferee_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.401371] (-) TimerEvent: {}
+[1.410605] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.423176] (referee_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/referee_pkg/msg/detail/race_stage__type_support.c.o\x1b[0m\n'}
+[1.423384] (referee_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/referee_pkg/msg/detail/multi_object__type_support.c.o\x1b[0m\n'}
+[1.423459] (referee_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/referee_pkg/srv/detail/hit_armor__type_support.c.o\x1b[0m\n'}
+[1.423527] (referee_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/referee_pkg/msg/detail/object__type_support.c.o\x1b[0m\n'}
+[1.432540] (referee_pkg) StdoutLine: {'line': b'[ 58%] Built target referee_pkg__rosidl_typesupport_c\n'}
+[1.456899] (referee_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libreferee_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.457100] (referee_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libreferee_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.467121] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.477873] (referee_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/referee_pkg/msg/detail/race_stage__type_support_c.cpp.o\x1b[0m\n'}
+[1.478068] (referee_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/referee_pkg/srv/detail/hit_armor__type_support_c.cpp.o\x1b[0m\n'}
+[1.478354] (referee_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/referee_pkg/msg/detail/multi_object__type_support_c.cpp.o\x1b[0m\n'}
+[1.478613] (referee_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/referee_pkg/msg/detail/object__type_support_c.cpp.o\x1b[0m\n'}
+[1.480834] (referee_pkg) StdoutLine: {'line': b'[ 68%] Built target referee_pkg__rosidl_typesupport_introspection_c\n'}
+[1.482418] (referee_pkg) StdoutLine: {'line': b'[ 68%] Built target referee_pkg__rosidl_typesupport_cpp\n'}
+[1.493720] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee\x1b[0m\n'}
+[1.501480] (-) TimerEvent: {}
+[1.515118] (referee_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/referee.dir/src/referee.cpp.o\x1b[0m\n'}
+[1.515334] (referee_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/referee.dir/src/utils.cpp.o\x1b[0m\n'}
+[1.601614] (-) TimerEvent: {}
+[1.622894] (referee_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libreferee_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.669697] (referee_pkg) StdoutLine: {'line': b'[ 74%] Built target referee_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.698736] (referee_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libreferee_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.701816] (-) TimerEvent: {}
+[1.723466] (referee_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libreferee_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.746205] (referee_pkg) StdoutLine: {'line': b'[ 77%] Built target referee_pkg__rosidl_typesupport_introspection_cpp\n'}
+[1.768466] (referee_pkg) StdoutLine: {'line': b'[ 77%] Built target referee_pkg__rosidl_typesupport_fastrtps_c\n'}
+[1.786088] (referee_pkg) StdoutLine: {'line': b'[ 77%] Built target referee_pkg\n'}
+[1.801487] (referee_pkg) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.801875] (-) TimerEvent: {}
+[1.902102] (-) TimerEvent: {}
+[2.002451] (-) TimerEvent: {}
+[2.102693] (-) TimerEvent: {}
+[2.123511] (referee_pkg) StdoutLine: {'line': b'[ 79%] Built target referee_pkg__py\n'}
+[2.132887] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_generator_py\x1b[0m\n'}
+[2.143296] (referee_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c.o\x1b[0m\n'}
+[2.143460] (referee_pkg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c.o\x1b[0m\n'}
+[2.143521] (referee_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_multi_object_s.c.o\x1b[0m\n'}
+[2.143575] (referee_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_generator_py.dir/rosidl_generator_py/referee_pkg/msg/_object_s.c.o\x1b[0m\n'}
+[2.202886] (-) TimerEvent: {}
+[2.203683] (referee_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/referee_pkg/libreferee_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[2.232932] (referee_pkg) StdoutLine: {'line': b'[ 87%] Built target referee_pkg__rosidl_generator_py\n'}
+[2.240398] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.240545] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.240935] (referee_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target referee_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.249888] (referee_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.250044] (referee_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.250103] (referee_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/referee_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.302974] (-) TimerEvent: {}
+[2.310011] (referee_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/referee_pkg/referee_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.310154] (referee_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/referee_pkg/referee_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.310214] (referee_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/referee_pkg/referee_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.337172] (referee_pkg) StdoutLine: {'line': b'[ 98%] Built target referee_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.337544] (referee_pkg) StdoutLine: {'line': b'[ 98%] Built target referee_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.342726] (referee_pkg) StdoutLine: {'line': b'[ 98%] Built target referee_pkg__rosidl_typesupport_c__pyext\n'}
+[2.403091] (-) TimerEvent: {}
+[2.503398] (-) TimerEvent: {}
+[2.603767] (-) TimerEvent: {}
+[2.704106] (-) TimerEvent: {}
+[2.804433] (-) TimerEvent: {}
+[2.904787] (-) TimerEvent: {}
+[3.005022] (-) TimerEvent: {}
+[3.105397] (-) TimerEvent: {}
+[3.205739] (-) TimerEvent: {}
+[3.305978] (-) TimerEvent: {}
+[3.406316] (-) TimerEvent: {}
+[3.506662] (-) TimerEvent: {}
+[3.606921] (-) TimerEvent: {}
+[3.707156] (-) TimerEvent: {}
+[3.807384] (-) TimerEvent: {}
+[3.907609] (-) TimerEvent: {}
+[4.008009] (-) TimerEvent: {}
+[4.108301] (-) TimerEvent: {}
+[4.208625] (-) TimerEvent: {}
+[4.308994] (-) TimerEvent: {}
+[4.409329] (-) TimerEvent: {}
+[4.509656] (-) TimerEvent: {}
+[4.610009] (-) TimerEvent: {}
+[4.710264] (-) TimerEvent: {}
+[4.810600] (-) TimerEvent: {}
+[4.910966] (-) TimerEvent: {}
+[5.011298] (-) TimerEvent: {}
+[5.111632] (-) TimerEvent: {}
+[5.212001] (-) TimerEvent: {}
+[5.312339] (-) TimerEvent: {}
+[5.412683] (-) TimerEvent: {}
+[5.513030] (-) TimerEvent: {}
+[5.613363] (-) TimerEvent: {}
+[5.713706] (-) TimerEvent: {}
+[5.814052] (-) TimerEvent: {}
+[5.914383] (-) TimerEvent: {}
+[6.014727] (-) TimerEvent: {}
+[6.114953] (-) TimerEvent: {}
+[6.215231] (-) TimerEvent: {}
+[6.315586] (-) TimerEvent: {}
+[6.415918] (-) TimerEvent: {}
+[6.516137] (-) TimerEvent: {}
+[6.616470] (-) TimerEvent: {}
+[6.716823] (-) TimerEvent: {}
+[6.817040] (-) TimerEvent: {}
+[6.917363] (-) TimerEvent: {}
+[7.017700] (-) TimerEvent: {}
+[7.117943] (-) TimerEvent: {}
+[7.218188] (-) TimerEvent: {}
+[7.318513] (-) TimerEvent: {}
+[7.418880] (-) TimerEvent: {}
+[7.519150] (-) TimerEvent: {}
+[7.619490] (-) TimerEvent: {}
+[7.719854] (-) TimerEvent: {}
+[7.820179] (-) TimerEvent: {}
+[7.920506] (-) TimerEvent: {}
+[8.020862] (-) TimerEvent: {}
+[8.121083] (-) TimerEvent: {}
+[8.221420] (-) TimerEvent: {}
+[8.321769] (-) TimerEvent: {}
+[8.422100] (-) TimerEvent: {}
+[8.522427] (-) TimerEvent: {}
+[8.622776] (-) TimerEvent: {}
+[8.723103] (-) TimerEvent: {}
+[8.823386] (-) TimerEvent: {}
+[8.923657] (-) TimerEvent: {}
+[9.023869] (-) TimerEvent: {}
+[9.124061] (-) TimerEvent: {}
+[9.224348] (-) TimerEvent: {}
+[9.242314] (referee_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable referee\x1b[0m\n'}
+[9.324527] (-) TimerEvent: {}
+[9.424796] (-) TimerEvent: {}
+[9.525090] (-) TimerEvent: {}
+[9.625365] (-) TimerEvent: {}
+[9.725647] (-) TimerEvent: {}
+[9.771085] (referee_pkg) StdoutLine: {'line': b'[100%] Built target referee\n'}
+[9.782502] (referee_pkg) CommandEnded: {'returncode': 0}
+[9.783371] (referee_pkg) JobProgress: {'identifier': 'referee_pkg', 'progress': 'install'}
+[9.788321] (referee_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg'], 'cwd': '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zjzl'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera/lib:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2023.0.2/runtime/lib/intel64:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/zjzl'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2023.0.2'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2903'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3492'), ('BUNDLED_DEBUGPY_PATH', '/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18856'), ('COLCON_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zjzl'), ('JOURNAL_STREAM', '8:11549'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2023.0.2/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2023.0.2/runtime/lib/intel64/pkgconfig::/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zjzl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zjzl/clion-2025.2.1/bin:/usr/local/cuda-12.4/bin:/opt/ros/humble/bin:/home/zjzl/.local/bin:/home/zjzl/clion-2025.2.1/bin:/usr/local/cuda-12.4/bin:/home/zjzl/anaconda3/condabin:/opt/ros/humble/bin:/home/zjzl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/zjzl/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/zjzl-Legion-Y9000P-IRX9:@/tmp/.ICE-unix/3465,unix/zjzl-Legion-Y9000P-IRX9:/tmp/.ICE-unix/3465'), ('INVOCATION_ID', 'b51d187a1b5b4b9d89ef95edfd077e91'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zjzl/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-abe248ba8cd8be85.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/zjzl/.config/Code/User/workspaceStorage/08be5d424e80791f6d35b2dd1b177a40/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-88d864616a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/zjzl/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ngraph_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('InferenceEngine_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/zjzl/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages:/opt/intel/openvino_2023.0.2/python/python3.10:/opt/intel/openvino_2023.0.2/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2023.0.2/python/python3.10:/opt/intel/openvino_2023.0.2/python/python3:'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('OpenVINO_DIR', '/opt/intel/openvino_2023.0.2/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/target_model_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/player_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/pose_msg:/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/camera_sim_pkg:/opt/ros/humble')]), 'shell': False}
+[9.795832] (referee_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.795916] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/ament_index/resource_index/rosidl_interfaces/referee_pkg\n'}
+[9.796062] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.796138] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.796179] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.796209] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/race_stage.h\n'}
+[9.796266] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/target.h\n'}
+[9.796293] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/object.h\n'}
+[9.796320] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/multi_object.h\n'}
+[9.796345] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.796403] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__functions.h\n'}
+[9.796464] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__type_support.h\n'}
+[9.796493] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__functions.c\n'}
+[9.796521] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__type_support.h\n'}
+[9.796547] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__functions.h\n'}
+[9.796576] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__struct.h\n'}
+[9.796603] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__struct.h\n'}
+[9.796630] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__functions.c\n'}
+[9.796656] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__functions.h\n'}
+[9.796703] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__functions.h\n'}
+[9.796733] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__struct.h\n'}
+[9.796761] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__type_support.h\n'}
+[9.796826] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__functions.c\n'}
+[9.796858] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__functions.c\n'}
+[9.796887] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__type_support.h\n'}
+[9.796915] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__struct.h\n'}
+[9.796942] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.796969] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/hit_arror.h\n'}
+[9.796996] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/hit_armor.h\n'}
+[9.797053] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.797084] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__type_support.h\n'}
+[9.797112] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__type_support.h\n'}
+[9.797141] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__functions.c\n'}
+[9.797199] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__functions.h\n'}
+[9.797226] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__struct.h\n'}
+[9.797251] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__functions.h\n'}
+[9.797277] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__struct.h\n'}
+[9.797300] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__functions.c\n'}
+[9.797325] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/library_path.sh\n'}
+[9.797349] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/library_path.dsv\n'}
+[9.797393] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_generator_c.so\n'}
+[9.797555] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_generator_c.so" to ""\n'}
+[9.797613] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.797641] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.797666] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.797710] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__rosidl_typesupport_fastrtps_c.h\n'}
+[9.797761] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[9.797789] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__rosidl_typesupport_fastrtps_c.h\n'}
+[9.797816] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[9.797859] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.797886] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.797934] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.797960] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__rosidl_typesupport_fastrtps_c.h\n'}
+[9.797984] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__rosidl_typesupport_fastrtps_c.h\n'}
+[9.798152] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[9.798297] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.798340] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.798383] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.798409] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/object.hpp\n'}
+[9.798451] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.798499] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/multi_object.hpp\n'}
+[9.798526] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.798552] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__struct.hpp\n'}
+[9.798594] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__builder.hpp\n'}
+[9.798649] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__type_support.hpp\n'}
+[9.798677] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__builder.hpp\n'}
+[9.798702] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__builder.hpp\n'}
+[9.798727] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__traits.hpp\n'}
+[9.798768] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__type_support.hpp\n'}
+[9.798826] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__type_support.hpp\n'}
+[9.798852] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__traits.hpp\n'}
+[9.798877] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__traits.hpp\n'}
+[9.798902] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__struct.hpp\n'}
+[9.798926] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__builder.hpp\n'}
+[9.798968] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__traits.hpp\n'}
+[9.799015] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__type_support.hpp\n'}
+[9.799041] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__struct.hpp\n'}
+[9.799066] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__struct.hpp\n'}
+[9.799110] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/race_stage.hpp\n'}
+[9.799165] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/target.hpp\n'}
+[9.799191] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.799217] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/hit_armor.hpp\n'}
+[9.799241] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/hit_arror.hpp\n'}
+[9.799265] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.799299] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__builder.hpp\n'}
+[9.799324] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__type_support.hpp\n'}
+[9.799352] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__traits.hpp\n'}
+[9.799375] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__builder.hpp\n'}
+[9.799424] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__struct.hpp\n'}
+[9.799450] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__struct.hpp\n'}
+[9.799475] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__type_support.hpp\n'}
+[9.799499] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__traits.hpp\n'}
+[9.799523] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.799576] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.799602] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.799628] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799654] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799680] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799704] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/dds_fastrtps\n'}
+[9.799758] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799783] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.799806] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.799828] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.799850] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799871] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.799893] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/dds_fastrtps\n'}
+[9.799935] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.800085] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.800127] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.800173] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.800199] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.800224] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.800268] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[9.800297] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__rosidl_typesupport_introspection_c.h\n'}
+[9.800342] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__type_support.c\n'}
+[9.800370] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__type_support.c\n'}
+[9.800395] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__type_support.c\n'}
+[9.800438] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[9.800465] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__rosidl_typesupport_introspection_c.h\n'}
+[9.800510] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__type_support.c\n'}
+[9.800538] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.800563] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.800618] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__rosidl_typesupport_introspection_c.h\n'}
+[9.800641] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__rosidl_typesupport_introspection_c.h\n'}
+[9.800664] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__type_support.c\n'}
+[9.800688] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__type_support.c\n'}
+[9.800852] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_introspection_c.so\n'}
+[9.800969] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.801322] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_c.so\n'}
+[9.801446] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_c.so" to ""\n'}
+[9.801508] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg\n'}
+[9.801588] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg\n'}
+[9.801642] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail\n'}
+[9.801752] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.801808] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__type_support.cpp\n'}
+[9.801864] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/object__type_support.cpp\n'}
+[9.801912] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__type_support.cpp\n'}
+[9.801959] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/multi_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.802007] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.802055] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.802120] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/msg/detail/race_stage__type_support.cpp\n'}
+[9.802169] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv\n'}
+[9.802216] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail\n'}
+[9.802268] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.802319] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__type_support.cpp\n'}
+[9.802370] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_arror__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.802432] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/referee_pkg/srv/detail/hit_armor__type_support.cpp\n'}
+[9.802480] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[9.802528] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.802594] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_cpp.so\n'}
+[9.802657] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[9.802752] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/pythonpath.sh\n'}
+[9.802821] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/pythonpath.dsv\n'}
+[9.802880] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg-0.0.0-py3.10.egg-info\n'}
+[9.802928] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.802981] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.803029] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.803115] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.803205] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg\n'}
+[9.803257] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.803309] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/libreferee_pkg__rosidl_generator_py.so\n'}
+[9.803361] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg\n'}
+[9.803412] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_multi_object_s.c\n'}
+[9.803463] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_race_stage_s.c\n'}
+[9.803513] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_race_stage.py\n'}
+[9.803564] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_object_s.c\n'}
+[9.803615] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_target.py\n'}
+[9.803714] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_object.py\n'}
+[9.803783] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/__init__.py\n'}
+[9.803832] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_multi_object.py\n'}
+[9.803879] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_target_s.c\n'}
+[9.803927] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv\n'}
+[9.803977] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/_hit_arror_s.c\n'}
+[9.804026] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/_hit_armor.py\n'}
+[9.804073] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/_hit_arror.py\n'}
+[9.804123] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/__init__.py\n'}
+[9.804170] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/_hit_armor_s.c\n'}
+[9.804217] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.804264] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[9.804311] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.804358] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.804405] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/__init__.py\n'}
+[9.804452] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.825296] (referee_pkg) StdoutLine: {'line': b"Listing '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg'...\n"}
+[9.825393] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/__init__.py'...\n"}
+[9.825451] (referee_pkg) StdoutLine: {'line': b"Listing '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg'...\n"}
+[9.825503] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/__init__.py'...\n"}
+[9.825554] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_multi_object.py'...\n"}
+[9.825603] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_object.py'...\n"}
+[9.825650] (-) TimerEvent: {}
+[9.825727] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/msg/_race_stage.py'...\n"}
+[9.825788] (referee_pkg) StdoutLine: {'line': b"Listing '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv'...\n"}
+[9.825839] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/__init__.py'...\n"}
+[9.825888] (referee_pkg) StdoutLine: {'line': b"Compiling '/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/srv/_hit_armor.py'...\n"}
+[9.827760] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.827852] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.827912] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.828108] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.828187] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.828244] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/local/lib/python3.10/dist-packages/referee_pkg/referee_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.828401] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_generator_py.so\n'}
+[9.828478] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/libreferee_pkg__rosidl_generator_py.so" to ""\n'}
+[9.828565] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/Object.idl\n'}
+[9.828622] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/MultiObject.idl\n'}
+[9.828681] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/RaceStage.idl\n'}
+[9.828776] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/srv/HitArmor.idl\n'}
+[9.828827] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/Object.msg\n'}
+[9.828877] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/MultiObject.msg\n'}
+[9.828926] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/msg/RaceStage.msg\n'}
+[9.828975] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/srv/HitArmor.srv\n'}
+[9.829024] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/srv/HitArmor_Request.msg\n'}
+[9.829073] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/srv/HitArmor_Response.msg\n'}
+[9.829142] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/referee_pkg/referee\n'}
+[9.832310] (referee_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/lib/referee_pkg/referee" to ""\n'}
+[9.832452] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include\n'}
+[9.832545] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg\n'}
+[9.832626] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg\n'}
+[9.832686] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/object.hpp\n'}
+[9.832746] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.832798] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/multi_object.hpp\n'}
+[9.832852] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail\n'}
+[9.832904] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/race_stage__struct.hpp\n'}
+[9.832959] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/object__builder.hpp\n'}
+[9.833076] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/multi_object__type_support.hpp\n'}
+[9.833128] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/target__builder.hpp\n'}
+[9.833185] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/race_stage__builder.hpp\n'}
+[9.833279] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/multi_object__traits.hpp\n'}
+[9.833333] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/object__type_support.hpp\n'}
+[9.833386] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/target__type_support.hpp\n'}
+[9.833440] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/object__traits.hpp\n'}
+[9.833493] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/target__traits.hpp\n'}
+[9.833546] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/object__struct.hpp\n'}
+[9.833600] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/multi_object__builder.hpp\n'}
+[9.833653] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/race_stage__traits.hpp\n'}
+[9.833746] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/race_stage__type_support.hpp\n'}
+[9.833816] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/target__struct.hpp\n'}
+[9.833866] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/detail/multi_object__struct.hpp\n'}
+[9.833921] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/race_stage.hpp\n'}
+[9.833984] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/msg/target.hpp\n'}
+[9.834037] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv\n'}
+[9.834090] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/hit_armor.hpp\n'}
+[9.834144] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/hit_arror.hpp\n'}
+[9.834197] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail\n'}
+[9.834250] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_arror__builder.hpp\n'}
+[9.834303] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_armor__type_support.hpp\n'}
+[9.834356] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_armor__traits.hpp\n'}
+[9.834409] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_armor__builder.hpp\n'}
+[9.834462] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_arror__struct.hpp\n'}
+[9.834515] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_armor__struct.hpp\n'}
+[9.834568] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_arror__type_support.hpp\n'}
+[9.834651] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/include/referee_pkg/srv/detail/hit_arror__traits.hpp\n'}
+[9.834707] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/launch\n'}
+[9.834785] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/launch/referee_pkg_launch.xml\n'}
+[9.834847] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/ament_index/resource_index/package_run_dependencies/referee_pkg\n'}
+[9.834949] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/ament_index/resource_index/parent_prefix_path/referee_pkg\n'}
+[9.835000] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/ament_prefix_path.sh\n'}
+[9.835050] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/ament_prefix_path.dsv\n'}
+[9.835100] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/path.sh\n'}
+[9.835151] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/environment/path.dsv\n'}
+[9.835201] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/local_setup.bash\n'}
+[9.835250] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/local_setup.sh\n'}
+[9.835303] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/local_setup.zsh\n'}
+[9.835352] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/local_setup.dsv\n'}
+[9.835402] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/package.dsv\n'}
+[9.835452] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/ament_index/resource_index/packages/referee_pkg\n'}
+[9.835502] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_generator_cExport.cmake\n'}
+[9.835552] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.835602] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.835651] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.835706] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_generator_cppExport.cmake\n'}
+[9.835759] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.835809] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.835860] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.835911] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.835962] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_cExport.cmake\n'}
+[9.836014] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.836067] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.836120] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.836173] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[9.836226] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.836359] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_generator_pyExport.cmake\n'}
+[9.836507] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/export_referee_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.836562] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[9.836616] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.836676] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.836887] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.836942] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.836997] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.837051] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.837106] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkgConfig.cmake\n'}
+[9.837160] (referee_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/cmake/referee_pkgConfig-version.cmake\n'}
+[9.837214] (referee_pkg) StdoutLine: {'line': b'-- Installing: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/install/referee_pkg/share/referee_pkg/package.xml\n'}
+[9.837516] (referee_pkg) CommandEnded: {'returncode': 0}
+[9.849743] (referee_pkg) JobEnded: {'identifier': 'referee_pkg', 'rc': 0}
+[9.850393] (-) EventReactorShutdown: {}

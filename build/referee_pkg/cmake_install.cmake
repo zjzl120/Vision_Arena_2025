@@ -356,10 +356,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/msg" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/Target.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/msg" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/Object.idl")
 endif()
 
@@ -372,11 +368,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/srv/HitArror.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/msg" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/msg/Target.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/srv/HitArmor.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -392,15 +384,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/srv/HitArror.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/srv/HitArmor.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArror_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArmor_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArror_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/referee_pkg/srv" TYPE FILE FILES "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArmor_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

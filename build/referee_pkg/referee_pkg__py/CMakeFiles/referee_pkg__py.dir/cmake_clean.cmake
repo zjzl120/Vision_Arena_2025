@@ -9,11 +9,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/referee_pkg/msg/_object_s.c"
   "../rosidl_generator_py/referee_pkg/msg/_race_stage.py"
   "../rosidl_generator_py/referee_pkg/msg/_race_stage_s.c"
-  "../rosidl_generator_py/referee_pkg/msg/_target.py"
-  "../rosidl_generator_py/referee_pkg/msg/_target_s.c"
   "../rosidl_generator_py/referee_pkg/srv/__init__.py"
-  "../rosidl_generator_py/referee_pkg/srv/_hit_arror.py"
-  "../rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c"
+  "../rosidl_generator_py/referee_pkg/srv/_hit_armor.py"
+  "../rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c"
   "CMakeFiles/referee_pkg__py"
 )
 

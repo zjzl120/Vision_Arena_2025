@@ -66,13 +66,12 @@ include CMakeFiles/referee_pkg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/referee_pkg.dir/progress.make
 
-CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/msg/Target.msg
 CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/msg/Object.msg
 CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/msg/MultiObject.msg
 CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/msg/RaceStage.msg
-CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/srv/HitArror.srv
-CMakeFiles/referee_pkg: rosidl_cmake/srv/HitArror_Request.msg
-CMakeFiles/referee_pkg: rosidl_cmake/srv/HitArror_Response.msg
+CMakeFiles/referee_pkg: /home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg/srv/HitArmor.srv
+CMakeFiles/referee_pkg: rosidl_cmake/srv/HitArmor_Request.msg
+CMakeFiles/referee_pkg: rosidl_cmake/srv/HitArmor_Response.msg
 CMakeFiles/referee_pkg: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/referee_pkg: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/referee_pkg: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl

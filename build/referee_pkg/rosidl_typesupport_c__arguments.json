@@ -3,11 +3,10 @@
   "output_dir": "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_typesupport_c/referee_pkg",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:msg/Target.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:msg/Object.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:msg/MultiObject.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:msg/RaceStage.idl",
-    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:srv/HitArror.idl"
+    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg:srv/HitArmor.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -82,11 +81,10 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/Target.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/Object.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/MultiObject.idl",
     "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/msg/RaceStage.idl",
-    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/srv/HitArror.idl",
+    "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_adapter/referee_pkg/srv/HitArmor.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

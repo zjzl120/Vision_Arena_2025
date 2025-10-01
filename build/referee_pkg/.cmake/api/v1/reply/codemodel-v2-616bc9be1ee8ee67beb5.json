@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a622159dd3dfc0b9f82a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "referee_pkg__py",
+					"jsonFile" : "directory-referee_pkg__py-369e12c68a1b844eac40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/referee_pkg__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "referee_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_referee_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_referee_pkg_egg-424485c2dbe742d0bf55.json",
+					"name" : "ament_cmake_python_build_referee_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_referee_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_referee_pkg-a221acdf6c024343898c.json",
+					"name" : "ament_cmake_python_copy_referee_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee-95df2f1a3d78b66fee36.json",
+					"name" : "referee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg-cde1704aa4b4c510ae91.json",
+					"name" : "referee_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__cpp-58b8c59712f8b4457f03.json",
+					"name" : "referee_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "referee_pkg__py::@6166f6c5cce267563f68",
+					"jsonFile" : "target-referee_pkg__py-76026f994c1fe2049e00.json",
+					"name" : "referee_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_generator_c-f0a237198ac201c9df89.json",
+					"name" : "referee_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_generator_py-87e118e865ce79e4e0f5.json",
+					"name" : "referee_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_c-31c80ccdf7e38fb98233.json",
+					"name" : "referee_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_c__pyext-a3931902c3220e8a9277.json",
+					"name" : "referee_pkg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_cpp-5be0b45a33f661c1a58d.json",
+					"name" : "referee_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_fastrtps_c-6be78dfe456a48ea291e.json",
+					"name" : "referee_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_fastrtps_c__pyext-c080e34558175a7d5921.json",
+					"name" : "referee_pkg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_fastrtps_cpp-56ff08d79f35a51775b4.json",
+					"name" : "referee_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_introspection_c-676a87399e72468706a2.json",
+					"name" : "referee_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_introspection_c__pyext-20a6488b05372a76ea65.json",
+					"name" : "referee_pkg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg__rosidl_typesupport_introspection_cpp-c681bcdcd9d9cae783dc.json",
+					"name" : "referee_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "referee_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-referee_pkg_uninstall-70cda47d8f5165814302.json",
+					"name" : "referee_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2b410131c702188af1e6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg",
+		"source" : "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/src/referee_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

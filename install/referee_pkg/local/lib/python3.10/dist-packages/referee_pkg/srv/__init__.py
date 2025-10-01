@@ -1,1 +1,1 @@
-from referee_pkg.srv._hit_arror import HitArror  # noqa: F401
+from referee_pkg.srv._hit_armor import HitArmor  # noqa: F401

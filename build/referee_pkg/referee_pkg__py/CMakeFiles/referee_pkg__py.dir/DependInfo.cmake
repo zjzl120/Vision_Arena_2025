@@ -21,11 +21,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_object_s.c" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_race_stage.py" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_race_stage_s.c" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_target.py" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/_target_s.c" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/__init__.py" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_arror.py" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_arror_s.c" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_armor.py" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/_hit_armor_s.c" "/home/zjzl/Desktop/New_Referee/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/_referee_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
