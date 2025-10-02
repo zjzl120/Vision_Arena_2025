@@ -1,4 +1,0 @@
-source;share/pose_msg/local_setup.bash
-source;share/pose_msg/local_setup.dsv
-source;share/pose_msg/local_setup.sh
-source;share/pose_msg/local_setup.zsh
