@@ -1,26 +1,48 @@
 {
     "RaceStage3": [
         {
-            "average_numdetecterror": 5.36,
+            "average_numdetecterror": 72.873,
             "average_orientationerror": 2.842,
-            "fps": 74,
-            "max_numdetecterror": 5.401,
+            "fps": 46,
+            "max_numdetecterror": 72.971,
             "max_orientationerror": 2.874,
-            "run_id": "6b100677-3775-46a0-85e5-5cff36268296",
+            "run_id": "e9adf6b4-f90e-488c-9e09-08c8bae7572d",
             "score": 5.0,
-            "target_type": "armor_red_1",
-            "timestamp": "2025-11-29T15:18:48Z"
+            "target_type": "armor_red_2",
+            "timestamp": "2025-11-29T15:44:36Z"
         },
         {
-            "average_numdetecterror": 5.36,
+            "average_numdetecterror": 72.873,
             "average_orientationerror": 3.14,
-            "fps": 74,
+            "fps": 46,
             "max_numdetecterror": 999.0,
             "max_orientationerror": 3.14,
-            "run_id": "c2ba6e9e-23df-4b34-b3f2-31bf3dbc214f",
+            "run_id": "8691040e-1f30-4719-af73-004a471a57ba",
+            "score": 0.0,
+            "target_type": "armor_red_1",
+            "timestamp": "2025-11-29T15:44:36Z"
+        },
+        {
+            "average_numdetecterror": 72.873,
+            "average_orientationerror": 3.14,
+            "fps": 46,
+            "max_numdetecterror": 999.0,
+            "max_orientationerror": 3.14,
+            "run_id": "88aa7de7-3920-4e5d-afa5-90b3f750bb91",
+            "score": 0.0,
+            "target_type": "armor_red_3",
+            "timestamp": "2025-11-29T15:44:36Z"
+        },
+        {
+            "average_numdetecterror": 72.873,
+            "average_orientationerror": 3.14,
+            "fps": 46,
+            "max_numdetecterror": 999.0,
+            "max_orientationerror": 3.14,
+            "run_id": "d94aece8-0fd3-44e7-8130-318eab00cba7",
             "score": 0.0,
             "target_type": "armor_red_4",
-            "timestamp": "2025-11-29T15:18:48Z"
+            "timestamp": "2025-11-29T15:44:36Z"
         }
     ],
     "team_name": "TeamA"
