@@ -9,9 +9,8 @@
 
 ## 一、启动方法
 
-### 0. 编译（首次使用或改动源码后）
+### 0. 编译（使用前）
 ```bash
-colcon build --symlink-install -j"$(nproc)"
 source install/local_setup.sh
 ```
 
