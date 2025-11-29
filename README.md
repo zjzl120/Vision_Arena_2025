@@ -173,5 +173,120 @@ json 示例：
 9. timestamp  同lod
 ---
 
+STAGE_3/STAGE_4
+log
+ ErrorResults 
+  stamp : 2025-09-30T11:15:49Z
+  target_type : armor_red_1
+  model_name : armor_red_1
+  pose : 
+       - position : [-1.02111 , 7.05548 , 1.23076]
+       - orientation : [0.80399 , 0.592801 , -0.0418458 , 0.0208693]
+  RingCirclePositionError : 0
+  position_error : 0.238272
+  orientation_error : 1.96731
+  found_in_gazebo : 1
+1. stamp 对应该条log输出的时间
+2. target_type 模型名称
+3. model_name 同上
+4. pose-position 裁判系统基于选手发布的像素坐标系点计算出的位置信息
+5. pose-orientation 四元数(未归一化),此处信息无用，但考虑到选手需求，故给出
+6. RingCirclePositionError 此阶段无用
+7. position_error 选手的识别精度量化误差，计入分数
+8. orientation_error 四元数，计入分数
+9. found_in_gazebo 恒定为 1
+json
+{
+  "RaceStage3": [
+    {
+      "average_numdetecterror": 0.238,
+      "average_orientationerror": 3.14,
+      "fps": 44,
+      "max_numdetecterror": 999.0,
+      "max_orientationerror": 3.14,
+      "run_id": "e75c2975-6e88-4f25-a685-7f724fc3d049",
+      "score": 0.0,
+      "target_type": "armor_red_2",
+      "timestamp": "2025-09-30T11:21:13Z"
+    },
+    {
+      "average_numdetecterror": 0.238,
+      "average_orientationerror": 1.967,
+      "fps": 46,
+      "max_numdetecterror": 0.238,
+      "max_orientationerror": 1.967,
+      "run_id": "b03c72da-42a1-4623-bf21-b5d157f5990e",
+      "score": 2.0,
+      "target_type": "armor_red_1",
+      "timestamp": "2025-09-30T11:21:13Z"
+    },
+    {
+      "average_numdetecterror": 0.238,
+      "average_orientationerror": 3.14,
+      "fps": 46,
+      "max_numdetecterror": 999.0,
+      "max_orientationerror": 3.14,
+      "run_id": "d7140c53-b776-4cc0-9a7b-7a61cb129125",
+      "score": 0.0,
+      "target_type": "armor_red_3",
+      "timestamp": "2025-09-30T11:21:13Z"
+    },
+    {
+      "average_numdetecterror": 0.238,
+      "average_orientationerror": 3.14,
+      "fps": 46,
+      "max_numdetecterror": 999.0,
+      "max_orientationerror": 3.14,
+      "run_id": "7e8e6d77-93da-4764-891c-33d763316235",
+      "score": 0.0,
+      "target_type": "armor_red_4",
+      "timestamp": "2025-09-30T11:21:13Z"
+    }
+  ],
+  "team_name": "TEAMENAME"
+}
+json中会有4个模型的数据，每个模型单独算分，最高分数一致
+1. team_name 队伍名称
+2. RaceStage3 该键指明其内信息所属阶段（比赛结束后其所展示的分数即为该阶段分数)
+3. average_numdetecterror 裁判系统用此值量化选手的装甲板识别以及装甲板数字识别,计入分数
+4. average_positionerror 同log
+5. fps 选手在单位时间内的识别次数,计入分数(单位时间为 1s)
+6. run_id 运行id
+7. score 最后得分
+8. target_type 同lod
+9. timestamp  同lod
+STAGE_5
+og
+ ErrorResults 
+  stamp : 2025-09-30T11:38:48Z
+  GunRotation : [-0.165149 , 0 , -0.241775]
+  CameraOrientation : [0.98932 , -0.120182 , -0.00994658 , -0.0818786]
+  ArmorPosition : [-1 , 7 , 1]
+  AccuraryDistance : 0
+  ArmorOrientation [0.707388 , 0 , 0 , -0.706825]
+  HitArmorPrecision : 3
+  checkHit : 1
+1. stamp 对应该条log输出的时间
+2. GunRotation 客户端接收到的云台旋转
+3.  CameraOrientation  云台应当进行的旋转
+4. ArmorPosition  基于调试考虑gazebo中模型的真实位置
+5. AccuraryDistance 误差值
+6. ArmorOrientation 装甲板的姿态
+7. HitArmorPrecision 击打准确度，计入分数
+8. checkHit 是否击打成功，计入分数
+json
+{
+  "RaceStage5": {
+    "average_precisonlevel": 0.254,
+    "hitarmor_successcount": 0,
+    "run_id": "26bcd75f-3d48-40ee-95fa-bd179c14a728",
+    "score": 0.0,
+    "timestamp": "2025-09-30T11:38:55Z"
+  },
+  "team_name": "TEAMENAME"
+}
+基本同上，所以不多加解释
+需要特别注意的是: 平均值计算时的除数是客户端发布的有效击打数，而非总请求数
+
 最后更新时间：2025-11-20  
 当前版本：v1.0.1

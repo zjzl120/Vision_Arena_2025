@@ -44,7 +44,7 @@ level3 的击打装甲板：stage=5
 **<font style="color:#DF2A3F;">特别提醒:</font>** **该消息仅在阶段切换时进行，请设置订阅者及时接收**
 
 ### srv
-#### HitArmor.msg(选手须在比赛阶段五构造对应消息的服务器)
+#### HitArmor.srv(选手须在比赛阶段五构造对应消息的服务器)
 ```cpp
 geometry_msgs/Point[] modelpoint   # 模型的真值点 (左下起始,逆时针方向)
 std_msgs/Header header		       # 时间戳

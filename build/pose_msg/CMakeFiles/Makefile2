@@ -147,6 +147,7 @@ CMakeFiles/pose_msg_uninstall.dir/clean:
 # Target rules for target CMakeFiles/pose_msg.dir
 
 # All Build rule for target.
+CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_generator_c.dir/all
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__cpp.dir/all
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_fastrtps_cpp.dir/all
@@ -154,7 +155,6 @@ CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_introspecti
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_c.dir/all
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_typesupport_cpp.dir/all
-CMakeFiles/pose_msg.dir/all: CMakeFiles/pose_msg__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_msg.dir/build.make CMakeFiles/pose_msg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_msg.dir/build.make CMakeFiles/pose_msg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/pose_msg/CMakeFiles --progress-num= "Built target pose_msg"
