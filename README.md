@@ -30,8 +30,6 @@ ros2 launch camera_sim_pkg camera.launch.py
 - 水平视场角：hfov = 1.047 rad
 - 内参：fx = 1108.0 像素，fy = 1108.383 像素，cx = 640 像素，cy = 640 像素
 
-说明：
-- 若需轻量配置，可改为 640×640，并按比例调整 fx/fy/cx/cy。
 
 ---
 
